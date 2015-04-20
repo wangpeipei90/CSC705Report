@@ -1,0 +1,19 @@
+\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.2}{Overview}{}% 2
+\BOOKMARK [2][-]{subsection.2.1}{Hadoop}{section.2}% 3
+\BOOKMARK [2][-]{subsection.2.2}{Docker in Hadoop}{section.2}% 4
+\BOOKMARK [1][-]{section.3}{Hadoop Security}{}% 5
+\BOOKMARK [2][-]{subsection.3.1}{Arbitrary code execution}{section.3}% 6
+\BOOKMARK [2][-]{subsection.3.2}{Malicious user impersonation}{section.3}% 7
+\BOOKMARK [2][-]{subsection.3.3}{Compromised nodes}{section.3}% 8
+\BOOKMARK [1][-]{section.4}{Design}{}% 9
+\BOOKMARK [1][-]{section.5}{Evaluation}{}% 10
+\BOOKMARK [2][-]{subsection.5.1}{Experiment platform}{section.5}% 11
+\BOOKMARK [2][-]{subsection.5.2}{Hadoop setup with Docker configuration}{section.5}% 12
+\BOOKMARK [2][-]{subsection.5.3}{Example attack}{section.5}% 13
+\BOOKMARK [1][-]{section.6}{Discussion}{}% 14
+\BOOKMARK [2][-]{subsection.6.1}{Permissions of container executor}{section.6}% 15
+\BOOKMARK [2][-]{subsection.6.2}{Non-Secure mode}{section.6}% 16
+\BOOKMARK [2][-]{subsection.6.3}{Running Hadoop in Docker Container}{section.6}% 17
+\BOOKMARK [1][-]{section.7}{Related Work}{}% 18
+\BOOKMARK [1][-]{section.8}{Conclusion}{}% 19

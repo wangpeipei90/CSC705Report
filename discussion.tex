@@ -1,0 +1,39 @@
+\section{Discussion}
+\label{sec:discussion}
+
+\iffalse
+Discussion (discuss some of the important simplifying assumptions, and
+suggest possibilities for future work)
+\fi
+
+The security concerns regarding to Docker containers in Hadoop are as follows:
+
+\subsection{Permissions of container executor}
+
+The container-executor program (in this paper, it is docker command) must have a very specific set of permissions and ownership in order to function correctly. In particular, it must:
+\begin{itemize}
+\item {Be owned by root}
+\item {Be owned by a group that contains only the user running the YARN daemons}
+\item {Be setuid}
+\item {Be group readable and executable}
+\end{itemize}
+
+The default user to run Docker is only root, and in order to run DockerExecutorContainer, the command /usr/bin/docker has to be changed to be setuid. With setuid, any user of the machine can run docker command. This not only compromise the normal Docker container runtime, but also could introduce failures to MapReduce job execution.
+
+\subsection{Non-Secure mode}
+
+Docker Container Executor runs in non-secure mode of HDFS and YARN. It will not run in secure mode, and will exit if it detects secure mode.
+
+However, we have discussed the details about non-secure mode, and talked about the malicious impersonation problem in non-secure mode.
+
+\subsection{Running Hadoop in Docker Container}
+
+There is another way to combine Docker container with Hadoop, namely, running Hadoop cluster inside Docker containers.
+
+Docker now is building tools for launching cloud servers, systems for clustering, and a wide range of functions. Instead of running Hadoop processes on the host machine, launching Docker containers and restraint Hadoop inside container is also an interesting method. The practicality to use this method is unknown. So is its security concerns.
+
+Expected results:
+•	YARN containers could not stop aggressive network/disk usage
+•	YARN containers implemented with Docker cannot stop user manipulating data illegally
+•	Solutions for containers to manage network or disk resources
+•	Solutions for containers (Docker) in the secure mode
