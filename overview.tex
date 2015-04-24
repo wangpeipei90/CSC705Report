@@ -7,8 +7,8 @@
 % it.
 \begin{figure}[t]
   \centering
-  \includegraphics[width=3in]{figs/overview}
-  \caption{A high-level architecture of our approach}
+  \includegraphics[width=3in]{figs/HadoopOverview.eps}
+  \caption{Hadoop Overview}
   \label{fig:overview}
 \end{figure}
 
@@ -25,6 +25,13 @@ The main components of HDFS are NameNode, DataNodes, and Secondary NameNode. Nam
 The main components of MapReduce are JobTracker and Tasktracker. JobTracker is the master of the system which manages the jobs and resources in the cluster (TaskTrackers).  TaskTrackers are the slaves which are deployed on each machine. They are responsible for running the map and reduce tasks as instructed by the JobTracker.
 
 However, Hadoop 1.x  is not scalable enough and has many limitations. There is no horizontal scalability of NameNode and it does not support NameNode High Availability. It can only support up to 4,000 nodes per cluster. Map and Reduce task slots are static. The JobTracker is responsible for both resource management and job scheduling, so it is so overburdened that it becomes the bottleneck of Hadoop.Therefore, Hadoop 2.x or Hadoop YARN is developed to handle the scalability problem in Hadoop. The fundamental idea of Haoop 2.x is to split up the two major functionalities of the JobTracker, resource management and job scheduling, into separate daemons. The following figure shows the architecture of Hadoop 2.x.
+
+\begin{figure}[t]
+  \centering
+  \includegraphics[width=3in]{figs/Container.eps}
+  \caption{Hadoop Overview}
+  \label{fig:overview}
+\end{figure}
 
 HDFS does not change in Hadoop 2.x. The YARN component is introduced to replace JobTracker. It has three components: Resource Manager,Node Manager, and Application Master. ResourceManager is the master that arbitrates all the available cluster resources and thus helps manage the distributed applications running on the YARN system. The NodeManager is YARN’s per-node agent, and takes care of the individual compute nodes in a Hadoop cluster, such as keeping up-to date with the ResourceManager, overseeing containers’ life-cycle management; monitoring resource usage (memory, CPU) of individual containers, etc. The ApplicationMaster is, in effect, an instance of a framework-specific library and is responsible for negotiating resources from the ResourceManager and working with the NodeManager(s) to execute and monitor the containers and their resource consumption. It has the responsibility of negotiating appropriate resource containers from the ResourceManager, tracking their status and monitoring progress.
 
