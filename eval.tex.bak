@@ -9,6 +9,8 @@ Evaluation (don't forget to interpret your data)
 
 The experiment platform is shown in the table.
 
+
+
 \subsection{Hadoop setup with Docker configuration}
 
 We suppose that Hadoop is already installed in Pseudo-Distributed mode, and Docker is also installed. The path of docker command is /usr/bin/command.
