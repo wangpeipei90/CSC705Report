@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  24 APR 2015 17:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  30 APR 2015 13:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -224,7 +224,84 @@ File: listings.cfg 2014/03/04 1.5c listings configuration
 ))
 Package: listings 2014/03/04 1.5c (Carsten Heinz)
 
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2013/01/14 v2.14 AMS math features
+\@mathmargin=\skip44
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks17
+\ex@=\dimen121
+))
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen122
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count109
+LaTeX Info: Redefining \frac on input line 210.
+\uproot@=\count110
+\leftroot@=\count111
+LaTeX Info: Redefining \overline on input line 306.
+\classnum@=\count112
+\DOTSCASE@=\count113
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
+\Mathstrutbox@=\box28
+\strutbox@=\box29
+\big@size=\dimen123
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
+\macc@depth=\count114
+\c@MaxMatrixCols=\count115
+\dotsspace@=\muskip11
+\c@parentequation=\count116
+\dspbrk@lvl=\count117
+\tag@help=\toks18
+\row@=\count118
+\column@=\count119
+\maxfields@=\count120
+\andhelp@=\toks19
+\eqnshift@=\dimen124
+\alignsep@=\dimen125
+\tagshift@=\dimen126
+\tagwidth@=\dimen127
+\totwidth@=\dimen128
+\lineht@=\dimen129
+\@envbody=\toks20
+\multlinegap=\skip45
+\multlinetaggap=\skip46
+\mathdisplay@stack=\toks21
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
 (./project-name.aux
+
+LaTeX Warning: Label `fig:overview' multiply defined.
+
+
+LaTeX Warning: Label `fig:overview' multiply defined.
+
+
+LaTeX Warning: Label `fig:overview' multiply defined.
+
 
 LaTeX Warning: Label `fig:overview' multiply defined.
 
@@ -234,21 +311,21 @@ LaTeX Warning: Label `fig:overview' multiply defined.
 )
 \openout1 = `project-name.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 29.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 33.
  (/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
@@ -287,17 +364,17 @@ File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 
 (/usr/local/texlive/2014/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count109
-\scratchdimen=\dimen121
-\scratchbox=\box28
-\nofMPsegments=\count110
-\nofMParguments=\count111
-\everyMPshowfont=\toks17
-\MPscratchCnt=\count112
-\MPscratchDim=\dimen122
-\MPnumerator=\count113
-\makeMPintoPDFobject=\count114
-\everyMPtoPDFconversion=\toks18
+\scratchcounter=\count121
+\scratchdimen=\dimen130
+\scratchbox=\box30
+\nofMPsegments=\count122
+\nofMParguments=\count123
+\everyMPshowfont=\toks22
+\MPscratchCnt=\count124
+\MPscratchDim=\dimen131
+\MPnumerator=\count125
+\makeMPintoPDFobject=\count126
+\everyMPtoPDFconversion=\toks23
 ) (/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
@@ -313,7 +390,7 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-\AtBeginShipoutBox=\box29
+\AtBeginShipoutBox=\box31
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/color.sty
 Package: color 2014/04/23 v1.1a Standard LaTeX Color (DPC)
@@ -323,7 +400,7 @@ File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package color Info: Driver file: pdftex.def on input line 137.
 )
-Package hyperref Info: Link coloring ON on input line 29.
+Package hyperref Info: Link coloring ON on input line 33.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -331,24 +408,28 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 (/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count115
+\c@section@level=\count127
 )
-LaTeX Info: Redefining \ref on input line 29.
-LaTeX Info: Redefining \pageref on input line 29.
-LaTeX Info: Redefining \nameref on input line 29.
+LaTeX Info: Redefining \ref on input line 33.
+LaTeX Info: Redefining \pageref on input line 33.
+LaTeX Info: Redefining \nameref on input line 33.
 
 (./project-name.out) (./project-name.out)
 \@outlinefile=\write4
 \openout4 = `project-name.out'.
 
-\c@lstlisting=\count116
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 32.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 32.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 32.
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 32.
+\c@lstlisting=\count128
+LaTeX Font Info:    Try loading font information for U+msa on input line 36.
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 36.
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 36.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
@@ -383,7 +464,7 @@ Package epstopdf Info: Source file: <figs/HadoopOverview.eps>
 (epstopdf)                    date: 2015-04-24 16:27:54
 (epstopdf)                    size: 2228614 bytes
 (epstopdf)             Output file: <figs/HadoopOverview-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-04-24 16:31:07
+(epstopdf)                    date: 2015-04-30 13:32:46
 (epstopdf)                    size: 31083 bytes
 (epstopdf)             Command: <repstopdf --outfile=figs/HadoopOverview-eps-co
 nverted-to.pdf figs/HadoopOverview.eps>
@@ -404,65 +485,77 @@ Underfull \hbox (badness 2653) in paragraph at lines 23--24
 []\OT1/ptm/m/n/10 The main com-po-nents of HDFS are Na-meN-ode,
  []
 
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ô in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ô in font ptmr7t!
+[2 <./figs/HadoopOverview-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <figs/docker.eps>
+(epstopdf)                    date: 2015-04-30 11:47:17
+(epstopdf)                    size: 554980 bytes
+(epstopdf)             Output file: <figs/docker-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-04-30 13:32:48
+(epstopdf)                    size: 25471 bytes
+(epstopdf)             Command: <repstopdf --outfile=figs/docker-eps-converted-
+to.pdf figs/docker.eps>
+(epstopdf)             \includegraphics on input line 38.
+Package epstopdf Info: Output file is already uptodate.
+
+<figs/docker-eps-converted-to.pdf, id=133, 426.59375pt x 453.695pt>
+File: figs/docker-eps-converted-to.pdf Graphic file (type pdf)
+
+<use figs/docker-eps-converted-to.pdf>
+Package pdftex.def Info: figs/docker-eps-converted-to.pdf used on input line 38
+.
+(pdftex.def)             Requested size: 144.54pt x 153.72119pt.
 Package epstopdf Info: Source file: <figs/Container.eps>
 (epstopdf)                    date: 2015-04-24 16:56:09
 (epstopdf)                    size: 1131784 bytes
 (epstopdf)             Output file: <figs/Container-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-04-24 16:58:13
+(epstopdf)                    date: 2015-04-30 13:32:50
 (epstopdf)                    size: 29895 bytes
 (epstopdf)             Command: <repstopdf --outfile=figs/Container-eps-convert
 ed-to.pdf figs/Container.eps>
-(epstopdf)             \includegraphics on input line 31.
+(epstopdf)             \includegraphics on input line 47.
 Package epstopdf Info: Output file is already uptodate.
-<figs/Container-eps-converted-to.pdf, id=116, 709.65125pt x 380.42125pt>
+
+<figs/Container-eps-converted-to.pdf, id=134, 709.65125pt x 380.42125pt>
 File: figs/Container-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/Container-eps-converted-to.pdf>
 Package pdftex.def Info: figs/Container-eps-converted-to.pdf used on input line
- 31.
+ 47.
 (pdftex.def)             Requested size: 216.81pt x 116.22276pt.
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ô in font ptmr7t!
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ô in font ptmr7t!
- [2 <./figs/HadoopOverview-eps-converted-to.pdf> <./figs/Container-eps-converte
-d-to.pdf>]
-Underfull \hbox (badness 1490) in paragraph at lines 39--40
-\OT1/ptm/m/n/10 Docker is a Linux-based sys-tem that makes use of
- []
-
 ) (./sec.tex
 Package epstopdf Info: Source file: <figs/security_hadoop.eps>
 (epstopdf)                    date: 2015-04-24 17:19:37
 (epstopdf)                    size: 2502051 bytes
 (epstopdf)             Output file: <figs/security_hadoop-eps-converted-to.pdf>
 
-(epstopdf)                    date: 2015-04-24 17:21:39
+(epstopdf)                    date: 2015-04-30 13:32:52
 (epstopdf)                    size: 31649 bytes
 (epstopdf)             Command: <repstopdf --outfile=figs/security_hadoop-eps-c
 onverted-to.pdf figs/security_hadoop.eps>
 (epstopdf)             \includegraphics on input line 26.
 Package epstopdf Info: Output file is already uptodate.
 
-<figs/security_hadoop-eps-converted-to.pdf, id=144, 706.64pt x 534.99875pt>
+<figs/security_hadoop-eps-converted-to.pdf, id=136, 706.64pt x 534.99875pt>
 File: figs/security_hadoop-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/security_hadoop-eps-converted-to.pdf>
 Package pdftex.def Info: figs/security_hadoop-eps-converted-to.pdf used on inpu
 t line 26.
 (pdftex.def)             Requested size: 216.81pt x 164.1499pt.
+ [3 <./figs/docker-eps-converted-to.pdf> <./figs/Container-eps-converted-to.pdf
+>]
 Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no Ä in font ptmr7t!
 Missing character: There is no ô in font ptmr7t!
 Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no Ä in font ptmr7t!
 Missing character: There is no ô in font ptmr7t!
-
-Underfull \vbox (badness 2735) has occurred while \output is active []
-
- [3 <./figs/security_hadoop-eps-converted-to.pdf>]
 Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no Ä in font ptmr7t!
 Missing character: There is no ú in font ptmr7t!
@@ -470,6 +563,26 @@ Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no Ä in font ptmr7t!
 Missing character: There is no ù in font ptmr7t!
 ) (./design.tex) (./eval.tex
+Overfull \hbox (8.53038pt too wide) in paragraph at lines 14--32
+[][] 
+ []
+
+Package epstopdf Info: Source file: <figs/code.eps>
+(epstopdf)                    date: 2015-04-30 13:30:09
+(epstopdf)                    size: 1488202 bytes
+(epstopdf)             Output file: <figs/code-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-04-30 13:32:53
+(epstopdf)                    size: 34604 bytes
+(epstopdf)             Command: <repstopdf --outfile=figs/code-eps-converted-to
+.pdf figs/code.eps>
+(epstopdf)             \includegraphics on input line 41.
+Package epstopdf Info: Output file is already uptodate.
+<figs/code-eps-converted-to.pdf, id=162, 534.99875pt x 222.8325pt>
+File: figs/code-eps-converted-to.pdf Graphic file (type pdf)
+
+<use figs/code-eps-converted-to.pdf>
+Package pdftex.def Info: figs/code-eps-converted-to.pdf used on input line 41.
+(pdftex.def)             Requested size: 216.81pt x 90.30446pt.
 Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no Ä in font ptmr7t!
 Missing character: There is no ú in font ptmr7t!
@@ -495,23 +608,46 @@ Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no Ä in font ptmr7t!
 Missing character: There is no ù in font ptmr7t!
 
-Underfull \hbox (badness 1152) in paragraph at lines 28--29
+Underfull \hbox (badness 1152) in paragraph at lines 50--51
 []\OT1/ptm/m/n/10 The re-sults of jps com-mand will present you the
  []
 
+Package epstopdf Info: Source file: <figs/command.eps>
+(epstopdf)                    date: 2015-04-30 13:30:13
+(epstopdf)                    size: 471301 bytes
+(epstopdf)             Output file: <figs/command-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-04-30 13:32:55
+(epstopdf)                    size: 30543 bytes
+(epstopdf)             Command: <repstopdf --outfile=figs/command-eps-converted
+-to.pdf figs/command.eps>
+(epstopdf)             \includegraphics on input line 56.
+Package epstopdf Info: Output file is already uptodate.
+<figs/command-eps-converted-to.pdf, id=163, 680.5425pt x 193.72375pt>
+File: figs/command-eps-converted-to.pdf Graphic file (type pdf)
+
+<use figs/command-eps-converted-to.pdf>
+Package pdftex.def Info: figs/command-eps-converted-to.pdf used on input line 5
+6.
+(pdftex.def)             Requested size: 216.81pt x 61.71796pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no Ä in font ptmr7t!
 Missing character: There is no ú in font ptmr7t!
 Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no Ä in font ptmr7t!
 Missing character: There is no ù in font ptmr7t!
+[4 <./figs/security_hadoop-eps-converted-to.pdf> <./figs/code-eps-converted-to.
+pdf>]
 Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no Ä in font ptmr7t!
 Missing character: There is no ú in font ptmr7t!
 Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no Ä in font ptmr7t!
 Missing character: There is no ù in font ptmr7t!
-) (./discussion.tex [4]
+) (./discussion.tex
 Underfull \hbox (badness 1117) in paragraph at lines 33--34
 []\OT1/ptm/m/n/10 Docker now is build-ing tools for launch-ing cloud
  []
@@ -528,12 +664,8 @@ Missing character: There is no ¢ in font ptmr7t!
 Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no Ä in font ptmr7t!
 Missing character: There is no ¢ in font ptmr7t!
-) (./relwork.tex) (./conc.tex) (./project-name.bbl
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 5.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 5.
-
+) (./relwork.tex [5 <./figs/command-eps-converted-to.pdf>]) (./conc.tex)
+(./project-name.bbl
 Underfull \hbox (badness 3118) in paragraph at lines 4--6
 []\OT1/ptm/m/n/10 Apache oozie work-flow sched-uler for hadoop.
  []
@@ -574,41 +706,39 @@ Overfull \hbox (4.35043pt too wide) in paragraph at lines 60--62
 []\OT1/ptm/m/n/10 A. Murthy.  http://hortonworks.com/blog/introducing-
  []
 
-[5])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 46.
- [6
-
-]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 46.
+)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 50.
+ [6]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 50.
  (./project-name.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 46.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 46.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 50.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 50.
 Package rerunfilecheck Info: File `project-name.out' has not changed.
 (rerunfilecheck)             Checksum: AA0DE8CE36DC1E4FD6CCF212A052960A;1156.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 46.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 50.
  ) 
 Here is how much of TeX's memory you used:
- 6997 strings out of 493117
- 104660 string characters out of 6135433
- 200518 words of memory out of 5000000
- 10314 multiletter control sequences out of 15000+600000
- 17604 words of font info for 40 fonts, out of 8000000 for 9000
+ 7887 strings out of 493117
+ 115028 string characters out of 6135433
+ 210265 words of memory out of 5000000
+ 11162 multiletter control sequences out of 15000+600000
+ 21212 words of font info for 57 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 29i,9n,32p,1055b,422s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 29i,9n,32p,1055b,401s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/te
 xlive/2014/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/20
 14/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2014/texmf-d
 ist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2014/texmf-dist/fonts/
 type1/urw/times/utmri8a.pfb>
-Output written on project-name.pdf (6 pages, 173672 bytes).
+Output written on project-name.pdf (6 pages, 256261 bytes).
 PDF statistics:
- 231 PDF objects out of 1000 (max. 8388607)
- 203 compressed objects within 3 object streams
- 49 named destinations out of 1000 (max. 500000)
- 168 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 263 PDF objects out of 1000 (max. 8388607)
+ 223 compressed objects within 3 object streams
+ 51 named destinations out of 1000 (max. 500000)
+ 183 words of extra memory for PDF output out of 10000 (max. 10000000)
 

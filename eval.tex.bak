@@ -9,21 +9,43 @@ Evaluation (don't forget to interpret your data)
 
 The experiment platform is shown in the table.
 
+\begin{table}[ht]
+
+\begin{tabular}{|l|l|}
+\hline 
+Name & Version \\ 
+\hline 
+CPU & 4 cores, Intel(R) Core(TM) i7-3770 \\
+& CPU @ 3.4GHz \\ 
+\hline 
+Memory & 16 GB \\ 
+\hline 
+Operating System & Ubuntu 14.04.2 LTS \\ 
+\hline 
+Hadoop & Version 2.6.0, per \\ 
+\hline 
+Docker & Version 1.5.0, build a8a31ef \\ 
+\hline 
+Disk & Usage less than 90\% \\ 
+\hline 
+\end{tabular}
+\end{table}
 
 
 \subsection{Hadoop setup with Docker configuration}
 
-We suppose that Hadoop is already installed in Pseudo-Distributed mode, and Docker is also installed. The path of docker command is /usr/bin/command.
+We suppose that Hadoop is already installed in Pseudo-Distributed mode, and Docker is also installed. Firstly, we download docker image for Hadoop docker container.Then, we add the following properties to yarn-site.xml:
 
-The first step is to download docker image for Hadoop docker container. The command is: sudo docker pull sequenceiq/hadoop-docker:2.6.0
-
-Next, add the following properties to yarn-site.xml:
-
-
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=3.5in]{figs/code.eps}
+  \caption{Yarn-site.xml}
+  \label{fig:overview}
+\end{figure}
 
 In order for Hadoop to use Docker container, we need to change the permission of docker command with “sudo chmod u+s /usr/bin/docker”.
 
-Go to the directory of Hadoop installtion, and start Hadoop with “sbin/start-dfs.sh” and “sbin/start-yarn.sh”. 
+Go to the directory of Hadoop installation, and start Hadoop with “sbin/start-dfs.sh” and “sbin/start-yarn.sh”. 
 
 The results of  “jps” command will present you the running processes: NameNode, SecondaryNameNode, DataNode, ResourceManager, NodeManager.
 
