@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  30 APR 2015 13:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  30 APR 2015 15:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -308,6 +308,12 @@ LaTeX Warning: Label `fig:overview' multiply defined.
 
 LaTeX Warning: Label `fig:overview' multiply defined.
 
+
+LaTeX Warning: Label `fig:overview' multiply defined.
+
+
+LaTeX Warning: Label `fig:overview' multiply defined.
+
 )
 \openout1 = `project-name.aux'.
 
@@ -461,10 +467,10 @@ LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
 ])
 (./overview.tex
 Package epstopdf Info: Source file: <figs/HadoopOverview.eps>
-(epstopdf)                    date: 2015-04-24 16:27:54
+(epstopdf)                    date: 2015-04-30 13:53:03
 (epstopdf)                    size: 2228614 bytes
 (epstopdf)             Output file: <figs/HadoopOverview-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-04-30 13:32:46
+(epstopdf)                    date: 2015-04-30 13:53:03
 (epstopdf)                    size: 31083 bytes
 (epstopdf)             Command: <repstopdf --outfile=figs/HadoopOverview-eps-co
 nverted-to.pdf figs/HadoopOverview.eps>
@@ -485,150 +491,114 @@ Underfull \hbox (badness 2653) in paragraph at lines 23--24
 []\OT1/ptm/m/n/10 The main com-po-nents of HDFS are Na-meN-ode,
  []
 
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ô in font ptmr7t!
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ô in font ptmr7t!
-[2 <./figs/HadoopOverview-eps-converted-to.pdf>]
-Package epstopdf Info: Source file: <figs/docker.eps>
-(epstopdf)                    date: 2015-04-30 11:47:17
-(epstopdf)                    size: 554980 bytes
-(epstopdf)             Output file: <figs/docker-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-04-30 13:32:48
-(epstopdf)                    size: 25471 bytes
-(epstopdf)             Command: <repstopdf --outfile=figs/docker-eps-converted-
-to.pdf figs/docker.eps>
-(epstopdf)             \includegraphics on input line 38.
-Package epstopdf Info: Output file is already uptodate.
-
-<figs/docker-eps-converted-to.pdf, id=133, 426.59375pt x 453.695pt>
-File: figs/docker-eps-converted-to.pdf Graphic file (type pdf)
-
-<use figs/docker-eps-converted-to.pdf>
-Package pdftex.def Info: figs/docker-eps-converted-to.pdf used on input line 38
-.
-(pdftex.def)             Requested size: 144.54pt x 153.72119pt.
 Package epstopdf Info: Source file: <figs/Container.eps>
-(epstopdf)                    date: 2015-04-24 16:56:09
+(epstopdf)                    date: 2015-04-30 13:53:03
 (epstopdf)                    size: 1131784 bytes
 (epstopdf)             Output file: <figs/Container-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-04-30 13:32:50
+(epstopdf)                    date: 2015-04-30 13:53:03
 (epstopdf)                    size: 29895 bytes
 (epstopdf)             Command: <repstopdf --outfile=figs/Container-eps-convert
 ed-to.pdf figs/Container.eps>
-(epstopdf)             \includegraphics on input line 47.
+(epstopdf)             \includegraphics on input line 31.
 Package epstopdf Info: Output file is already uptodate.
-
-<figs/Container-eps-converted-to.pdf, id=134, 709.65125pt x 380.42125pt>
+<figs/Container-eps-converted-to.pdf, id=116, 709.65125pt x 380.42125pt>
 File: figs/Container-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/Container-eps-converted-to.pdf>
 Package pdftex.def Info: figs/Container-eps-converted-to.pdf used on input line
- 47.
+ 31.
 (pdftex.def)             Requested size: 216.81pt x 116.22276pt.
-) (./sec.tex
+Package epstopdf Info: Source file: <figs/yarn.eps>
+(epstopdf)                    date: 2015-04-30 15:16:57
+(epstopdf)                    size: 2035676 bytes
+(epstopdf)             Output file: <figs/yarn-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-04-30 15:18:17
+(epstopdf)                    size: 29264 bytes
+(epstopdf)             Command: <repstopdf --outfile=figs/yarn-eps-converted-to
+.pdf figs/yarn.eps>
+(epstopdf)             \includegraphics on input line 39.
+Package epstopdf Info: Output file is already uptodate.
+
+<figs/yarn-eps-converted-to.pdf, id=117, 652.4375pt x 533.995pt>
+File: figs/yarn-eps-converted-to.pdf Graphic file (type pdf)
+
+<use figs/yarn-eps-converted-to.pdf>
+Package pdftex.def Info: figs/yarn-eps-converted-to.pdf used on input line 39.
+(pdftex.def)             Requested size: 216.81pt x 177.44925pt.
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ô in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ô in font ptmr7t!
+ [2 <./figs/HadoopOverview-eps-converted-to.pdf> <./figs/Container-eps-converte
+d-to.pdf>]
+Package epstopdf Info: Source file: <figs/docker.eps>
+(epstopdf)                    date: 2015-04-30 13:53:03
+(epstopdf)                    size: 554980 bytes
+(epstopdf)             Output file: <figs/docker-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-04-30 13:53:03
+(epstopdf)                    size: 25471 bytes
+(epstopdf)             Command: <repstopdf --outfile=figs/docker-eps-converted-
+to.pdf figs/docker.eps>
+(epstopdf)             \includegraphics on input line 54.
+Package epstopdf Info: Output file is already uptodate.
+
+<figs/docker-eps-converted-to.pdf, id=144, 426.59375pt x 453.695pt>
+File: figs/docker-eps-converted-to.pdf Graphic file (type pdf)
+
+<use figs/docker-eps-converted-to.pdf>
+Package pdftex.def Info: figs/docker-eps-converted-to.pdf used on input line 54
+.
+(pdftex.def)             Requested size: 144.54pt x 153.72119pt.
+) (./sec.tex [3 <./figs/yarn-eps-converted-to.pdf> <./figs/docker-eps-converted
+-to.pdf>]
 Package epstopdf Info: Source file: <figs/security_hadoop.eps>
-(epstopdf)                    date: 2015-04-24 17:19:37
+(epstopdf)                    date: 2015-04-30 13:53:03
 (epstopdf)                    size: 2502051 bytes
 (epstopdf)             Output file: <figs/security_hadoop-eps-converted-to.pdf>
 
-(epstopdf)                    date: 2015-04-30 13:32:52
+(epstopdf)                    date: 2015-04-30 13:53:03
 (epstopdf)                    size: 31649 bytes
 (epstopdf)             Command: <repstopdf --outfile=figs/security_hadoop-eps-c
 onverted-to.pdf figs/security_hadoop.eps>
 (epstopdf)             \includegraphics on input line 26.
 Package epstopdf Info: Output file is already uptodate.
 
-<figs/security_hadoop-eps-converted-to.pdf, id=136, 706.64pt x 534.99875pt>
+<figs/security_hadoop-eps-converted-to.pdf, id=171, 706.64pt x 534.99875pt>
 File: figs/security_hadoop-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/security_hadoop-eps-converted-to.pdf>
 Package pdftex.def Info: figs/security_hadoop-eps-converted-to.pdf used on inpu
 t line 26.
 (pdftex.def)             Requested size: 216.81pt x 164.1499pt.
- [3 <./figs/docker-eps-converted-to.pdf> <./figs/Container-eps-converted-to.pdf
->]
 Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no Ä in font ptmr7t!
 Missing character: There is no ô in font ptmr7t!
 Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no Ä in font ptmr7t!
 Missing character: There is no ô in font ptmr7t!
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ú in font ptmr7t!
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ù in font ptmr7t!
 ) (./design.tex) (./eval.tex
 Overfull \hbox (8.53038pt too wide) in paragraph at lines 14--32
 [][] 
  []
 
 Package epstopdf Info: Source file: <figs/code.eps>
-(epstopdf)                    date: 2015-04-30 13:30:09
+(epstopdf)                    date: 2015-04-30 13:53:03
 (epstopdf)                    size: 1488202 bytes
 (epstopdf)             Output file: <figs/code-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-04-30 13:32:53
+(epstopdf)                    date: 2015-04-30 13:53:03
 (epstopdf)                    size: 34604 bytes
 (epstopdf)             Command: <repstopdf --outfile=figs/code-eps-converted-to
 .pdf figs/code.eps>
 (epstopdf)             \includegraphics on input line 41.
 Package epstopdf Info: Output file is already uptodate.
-<figs/code-eps-converted-to.pdf, id=162, 534.99875pt x 222.8325pt>
+<figs/code-eps-converted-to.pdf, id=173, 534.99875pt x 222.8325pt>
 File: figs/code-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/code-eps-converted-to.pdf>
 Package pdftex.def Info: figs/code-eps-converted-to.pdf used on input line 41.
 (pdftex.def)             Requested size: 216.81pt x 90.30446pt.
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ú in font ptmr7t!
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ù in font ptmr7t!
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ú in font ptmr7t!
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ù in font ptmr7t!
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ú in font ptmr7t!
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ù in font ptmr7t!
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ú in font ptmr7t!
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ù in font ptmr7t!
-
-Underfull \hbox (badness 1152) in paragraph at lines 50--51
-[]\OT1/ptm/m/n/10 The re-sults of jps com-mand will present you the
- []
-
-Package epstopdf Info: Source file: <figs/command.eps>
-(epstopdf)                    date: 2015-04-30 13:30:13
-(epstopdf)                    size: 471301 bytes
-(epstopdf)             Output file: <figs/command-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-04-30 13:32:55
-(epstopdf)                    size: 30543 bytes
-(epstopdf)             Command: <repstopdf --outfile=figs/command-eps-converted
--to.pdf figs/command.eps>
-(epstopdf)             \includegraphics on input line 56.
-Package epstopdf Info: Output file is already uptodate.
-<figs/command-eps-converted-to.pdf, id=163, 680.5425pt x 193.72375pt>
-File: figs/command-eps-converted-to.pdf Graphic file (type pdf)
-
-<use figs/command-eps-converted-to.pdf>
-Package pdftex.def Info: figs/command-eps-converted-to.pdf used on input line 5
-6.
-(pdftex.def)             Requested size: 216.81pt x 61.71796pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -639,15 +609,68 @@ Missing character: There is no ú in font ptmr7t!
 Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no Ä in font ptmr7t!
 Missing character: There is no ù in font ptmr7t!
-[4 <./figs/security_hadoop-eps-converted-to.pdf> <./figs/code-eps-converted-to.
-pdf>]
 Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no Ä in font ptmr7t!
 Missing character: There is no ú in font ptmr7t!
 Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no Ä in font ptmr7t!
 Missing character: There is no ù in font ptmr7t!
-) (./discussion.tex
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ú in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ù in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ú in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ù in font ptmr7t!
+
+Underfull \hbox (badness 1152) in paragraph at lines 49--50
+[]\OT1/ptm/m/n/10 The re-sults of jps com-mand will present you the
+ []
+
+[4 <./figs/security_hadoop-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <figs/command.eps>
+(epstopdf)                    date: 2015-04-30 13:53:03
+(epstopdf)                    size: 471301 bytes
+(epstopdf)             Output file: <figs/command-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-04-30 13:53:03
+(epstopdf)                    size: 30543 bytes
+(epstopdf)             Command: <repstopdf --outfile=figs/command-eps-converted
+-to.pdf figs/command.eps>
+(epstopdf)             \includegraphics on input line 55.
+Package epstopdf Info: Output file is already uptodate.
+
+<figs/command-eps-converted-to.pdf, id=191, 680.5425pt x 193.72375pt>
+File: figs/command-eps-converted-to.pdf Graphic file (type pdf)
+
+<use figs/command-eps-converted-to.pdf>
+Package pdftex.def Info: figs/command-eps-converted-to.pdf used on input line 5
+5.
+(pdftex.def)             Requested size: 216.81pt x 61.71796pt.
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ú in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ù in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ú in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ù in font ptmr7t!
+
+<figs/attack.png, id=192, 1927.2pt x 1084.05pt>
+File: figs/attack.png Graphic file (type png)
+ <use figs/attack.png>
+Package pdftex.def Info: figs/attack.png used on input line 67.
+(pdftex.def)             Requested size: 216.81pt x 121.9421pt.
+)
+(./discussion.tex
 Underfull \hbox (badness 1117) in paragraph at lines 33--34
 []\OT1/ptm/m/n/10 Docker now is build-ing tools for launch-ing cloud
  []
@@ -664,8 +687,8 @@ Missing character: There is no ¢ in font ptmr7t!
 Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no Ä in font ptmr7t!
 Missing character: There is no ¢ in font ptmr7t!
-) (./relwork.tex [5 <./figs/command-eps-converted-to.pdf>]) (./conc.tex)
-(./project-name.bbl
+) (./relwork.tex [5 <./figs/code-eps-converted-to.pdf> <./figs/command-eps-conv
+erted-to.pdf> <./figs/attack.png>]) (./conc.tex) (./project-name.bbl
 Underfull \hbox (badness 3118) in paragraph at lines 4--6
 []\OT1/ptm/m/n/10 Apache oozie work-flow sched-uler for hadoop.
  []
@@ -706,9 +729,11 @@ Overfull \hbox (4.35043pt too wide) in paragraph at lines 60--62
 []\OT1/ptm/m/n/10 A. Murthy.  http://hortonworks.com/blog/introducing-
  []
 
-)
+[6])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 50.
- [6]
+ [7
+
+]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 50.
  (./project-name.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 50.
@@ -722,23 +747,23 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 50.
  ) 
 Here is how much of TeX's memory you used:
- 7887 strings out of 493117
- 115028 string characters out of 6135433
- 210265 words of memory out of 5000000
- 11162 multiletter control sequences out of 15000+600000
+ 7900 strings out of 493117
+ 115282 string characters out of 6135433
+ 212242 words of memory out of 5000000
+ 11170 multiletter control sequences out of 15000+600000
  21212 words of font info for 57 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 29i,9n,32p,1055b,401s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 29i,9n,32p,1055b,427s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/te
 xlive/2014/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/20
 14/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2014/texmf-d
 ist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2014/texmf-dist/fonts/
 type1/urw/times/utmri8a.pfb>
-Output written on project-name.pdf (6 pages, 256261 bytes).
+Output written on project-name.pdf (7 pages, 1046203 bytes).
 PDF statistics:
- 263 PDF objects out of 1000 (max. 8388607)
- 223 compressed objects within 3 object streams
- 51 named destinations out of 1000 (max. 500000)
- 183 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 282 PDF objects out of 1000 (max. 8388607)
+ 236 compressed objects within 3 object streams
+ 53 named destinations out of 1000 (max. 500000)
+ 193 words of extra memory for PDF output out of 10000 (max. 10000000)
 

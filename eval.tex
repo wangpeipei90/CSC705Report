@@ -39,7 +39,6 @@ We suppose that Hadoop is already installed in Pseudo-Distributed mode, and Dock
 \begin{figure}[h]
   \centering
   \includegraphics[width=3in]{figs/code.eps}
-  \caption{yarn-site.xml}
   \label{fig:overview}
 \end{figure}
 
@@ -62,3 +61,10 @@ After the job is launched to execute, “docker ps” command shows that there a
 \subsection{Example attack}
 
 Since docker is being able to run by any user, use “docker stop containerID” could terminate the containers which are running MapReduce jobs. In this way, the malicious user could introduce failures to jobs. The screenshot is shown as below.
+
+\begin{figure}[t]
+  \centering
+  \includegraphics[width=3in]{figs/attack.png}
+  \caption{Attack experiment}
+  \label{fig:overview}
+\end{figure}
