@@ -1,8 +1,11 @@
 \section{Introduction}
 
-Hadoop~\cite{shvachko2010hadoop} is a framework that allows for the distributed processing of large data sets across clusters of computers using simple programming models. It is designed to scale up from single servers to thousands of machines, while each offering local computation and storage. It has been deployed by lots of companies, such as Facebook, Amazon, Adobe, Ebay, etc. There are also many other softwares built on top of Hadoop(e.g., Hive~\cite{thusoo2009hive,hive}, Hbase~\cite{hbase}, Pig~\cite{pig}, ZooKeeper~\cite{zookeeper}).
+Hadoop~\cite{shvachko2010hadoop} is a framework that allows for the distributed processing of large data sets across clusters of computers using simple programming models. It is designed to scale up from single servers to thousands of machines, while each offering local computation and storage. Nowadays, it has been deployed by lots of companies, such as Facebook, Amazon, Adobe, Ebay, etc. There are also many other softwares built on top of Hadoop(e.g., Hive~\cite{thusoo2009hive,hive}, Hbase~\cite{hbase}, Pig~\cite{pig}, ZooKeeper~\cite{zookeeper}).
 
-At the beginning, Hadoop was built with security in mind. While a lot of work on Hadoop has focused on improving its efficiency, people are gradually paying attention to its security concerns and building security modules for Hadoop. However, there exists no structured evaluation of security vulnerabilities in Hadoop considering the security enabled module.
+At the beginning, Hadoop was not built with security in mind. While a lot of work on Hadoop has focused on improving its efficiency, people are gradually paying attention to its security issues and then building security modules for Hadoop. However, there exists no structured evaluation of security vulnerabilities in Hadoop considering the security enabled module.
+
+
+
 
 Docker~\cite{docker} combines an easy-to-use interface to Linux containers with easy-to-construct image files for those containers. In short, Docker launches very light weight virtual machines. Containers take advantage of the Linux kernel’s ability to create isolated environments that are often described as a "chroot on steroids”~\cite{schmidt2006high}. Containers and the underlying host share a kernel. However, each container is assigned its own mostly independent runtime environment as with the help of Control Groups (cgroups)~\cite{cgroups} and namespaces. Each container receives its own network stack and process space, as well as its instance of a file system. However, at the moment, Docker does not provide each container with its own user namespace, which means that the launched user is only root and it offers no user ID isolation.
 
