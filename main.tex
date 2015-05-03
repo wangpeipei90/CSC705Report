@@ -1,15 +1,16 @@
-\documentclass[10pt,twocolumn]{article}
-%\documentclass[10pt,twocolumn,pdftex]{article}
+\documentclass[10pt,twocolumn,pdftex]{article}
 \usepackage[margin=1in]{geometry}
 \usepackage{comment}
 \usepackage{graphicx}
 \usepackage{url}
-\usepackage[colorlinks=true,citecolor=black,filecolor=black,%
+\usepackage[pdftex,colorlinks=true,citecolor=black,filecolor=black,%
             linkcolor=black,urlcolor=black]{hyperref}
-%\usepackage[pdftex,colorlinks=true,citecolor=black,filecolor=black,%
-%            linkcolor=black,urlcolor=black]{hyperref}
 \usepackage{times}
 \usepackage{listings}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{listings}
+
 
 %\usepackage{fancyvrb}
 %\usepackage{amsmath}
@@ -27,7 +28,7 @@
 \and
 Rui Shu\\
 \url{rshu@ncsu.edu}}
-\date{\today}
+
 
 \begin{document}
 
@@ -37,7 +38,7 @@ Rui Shu\\
 \input{intro}
 \input{overview}
 \input{sec}
-\input{design}
+%\input{design}
 \input{eval}
 \input{discussion}
 \input{relwork}
@@ -47,4 +48,5 @@ Rui Shu\\
 \bibliography{main}
 
 \end{document}
+
 
