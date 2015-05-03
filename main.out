@@ -10,9 +10,9 @@
 \BOOKMARK [2][-]{subsection.4.1}{Experiment platform}{section.4}% 10
 \BOOKMARK [2][-]{subsection.4.2}{Hadoop setup with Docker configuration}{section.4}% 11
 \BOOKMARK [2][-]{subsection.4.3}{Example attack}{section.4}% 12
-\BOOKMARK [1][-]{section.5}{Discussion}{}% 13
-\BOOKMARK [2][-]{subsection.5.1}{Permissions of container executor}{section.5}% 14
-\BOOKMARK [2][-]{subsection.5.2}{Non-Secure mode}{section.5}% 15
-\BOOKMARK [2][-]{subsection.5.3}{Running Hadoop in Docker Container}{section.5}% 16
+\BOOKMARK [1][-]{section.5}{Discussion and Design}{}% 13
+\BOOKMARK [2][-]{subsection.5.1}{Experiment platform}{section.5}% 14
+\BOOKMARK [2][-]{subsection.5.2}{Hadoop setup with Docker configuration}{section.5}% 15
+\BOOKMARK [2][-]{subsection.5.3}{Example attack}{section.5}% 16
 \BOOKMARK [1][-]{section.6}{Related Work}{}% 17
 \BOOKMARK [1][-]{section.7}{Conclusion}{}% 18

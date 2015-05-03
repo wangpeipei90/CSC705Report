@@ -25,7 +25,7 @@ In secure mode, Hadoop applies authentication and data confidentiality. Kerberos
   \centering
   \includegraphics[width=3in]{figs/security_hadoop.eps}
   \caption{A high-level architecture of our approach}
-  \label{fig:overview}
+  \label{fig:securityoverview}
 \end{figure}
 
 As seen in the figure, kerberos authentication module has the authentication server and the ticket granting server. Tokens are used to control access to the jobs and data blocks inside HDFS.There exists three types of tokens for HDFS access namely: delegation token, block access token, and job token.

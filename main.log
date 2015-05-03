@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.4.21)  2 MAY 2015 22:12
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.4.21)  3 MAY 2015 00:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -291,8 +291,11 @@ Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-))
-No file main.aux.
+)) (./main.aux
+
+LaTeX Warning: Label `fig:attackoverview' multiply defined.
+
+)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
@@ -310,7 +313,7 @@ LaTeX Font Info:    ... okay on input line 33.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 33.
 LaTeX Font Info:    ... okay on input line 33.
 LaTeX Font Info:    Try loading font information for OT1+ptm on input line 33.
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 *geometry* detected driver: pdftex
@@ -397,6 +400,8 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 33.
 LaTeX Info: Redefining \pageref on input line 33.
 LaTeX Info: Redefining \nameref on input line 33.
+
+(./main.out) (./main.out)
 \@outlinefile=\write4
 \openout4 = `main.out'.
 
@@ -423,61 +428,21 @@ Underfull \hbox (badness 1092) in paragraph at lines 8--9
 \OT1/ptm/m/n/10 Hadoop is a widely used com-put-ing frame-work and
  []
 
-) (./intro.tex
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 3.
+) (./intro.tex [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 
-LaTeX Warning: Citation `shvachko2010hadoop' on page 1 undefined on input line 
-3.
+]
+Underfull \hbox (badness 2221) in paragraph at lines 13--15
+\OT1/ptm/m/n/10 Hadoop's se-cure mode in-com-pat-i-bil-ity with Docker.
+ []
 
-
-LaTeX Warning: Citation `thusoo2009hive' on page 1 undefined on input line 3.
-
-
-LaTeX Warning: Citation `hive' on page 1 undefined on input line 3.
-
-
-LaTeX Warning: Citation `hbase' on page 1 undefined on input line 3.
-
-
-LaTeX Warning: Citation `pig' on page 1 undefined on input line 3.
-
-
-LaTeX Warning: Citation `zookeeper' on page 1 undefined on input line 3.
-
-
-LaTeX Warning: Citation `docker' on page 1 undefined on input line 10.
-
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ô in font ptmr7t!
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ù in font ptmr7t!
-
-LaTeX Warning: Citation `schmidt2006high' on page 1 undefined on input line 10.
-
-
-
-LaTeX Warning: Citation `cgroups' on page 1 undefined on input line 10.
-
-
-LaTeX Warning: Citation `dce' on page 1 undefined on input line 12.
-
-
-LaTeX Warning: Citation `yarn' on page 1 undefined on input line 12.
-
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 17.
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 16.
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 17.
- [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
-
-
-]) (./overview.tex
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 16.
+) (./overview.tex
 Package epstopdf Info: Source file: <figs/HadoopOverview.eps>
 (epstopdf)                    date: 2015-05-01 13:35:04
 (epstopdf)                    size: 2228614 bytes
@@ -489,7 +454,7 @@ nverted-to.pdf figs/HadoopOverview.eps>
 (epstopdf)             \includegraphics on input line 10.
 Package epstopdf Info: Output file is already uptodate.
 
-<figs/HadoopOverview-eps-converted-to.pdf, id=17, 693.59125pt x 419.5675pt>
+<figs/HadoopOverview-eps-converted-to.pdf, id=122, 693.59125pt x 419.5675pt>
 File: figs/HadoopOverview-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/HadoopOverview-eps-converted-to.pdf>
@@ -498,11 +463,6 @@ Package pdftex.def Info: figs/HadoopOverview-eps-converted-to.pdf used on input
 (pdftex.def)             Requested size: 216.81pt x 131.15292pt.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 15.
-
-
-LaTeX Warning: Citation `dean2008mapreduce' on page 2 undefined on input line 1
-9.
-
 Package epstopdf Info: Source file: <figs/yarn.eps>
 (epstopdf)                    date: 2015-05-01 13:35:04
 (epstopdf)                    size: 2035676 bytes
@@ -513,7 +473,8 @@ Package epstopdf Info: Source file: <figs/yarn.eps>
 .pdf figs/yarn.eps>
 (epstopdf)             \includegraphics on input line 29.
 Package epstopdf Info: Output file is already uptodate.
-<figs/yarn-eps-converted-to.pdf, id=18, 652.4375pt x 533.995pt>
+
+<figs/yarn-eps-converted-to.pdf, id=124, 652.4375pt x 533.995pt>
 File: figs/yarn-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/yarn-eps-converted-to.pdf>
@@ -530,9 +491,6 @@ Underfull \vbox (badness 1975) has occurred while \output is active []
 
  [2 <./figs/HadoopOverview-eps-converted-to.pdf> <./figs/yarn-eps-converted-to.
 pdf>]
-
-LaTeX Warning: Citation `helsley2009lxc' on page 3 undefined on input line 39.
-
 Package epstopdf Info: Source file: <figs/docker.eps>
 (epstopdf)                    date: 2015-05-01 13:35:04
 (epstopdf)                    size: 554980 bytes
@@ -543,7 +501,8 @@ Package epstopdf Info: Source file: <figs/docker.eps>
 to.pdf figs/docker.eps>
 (epstopdf)             \includegraphics on input line 45.
 Package epstopdf Info: Output file is already uptodate.
-<figs/docker-eps-converted-to.pdf, id=45, 426.59375pt x 453.695pt>
+
+<figs/docker-eps-converted-to.pdf, id=152, 426.59375pt x 453.695pt>
 File: figs/docker-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/docker-eps-converted-to.pdf>
@@ -555,11 +514,7 @@ Underfull \hbox (badness 1072) in paragraph at lines 50--51
 []\OT1/ptm/m/n/10 Docker has re-cently been of-fi-cially in-te-grated into
  []
 
-) (./sec.tex
-
-LaTeX Warning: Citation `oozie' on page 3 undefined on input line 16.
-
-[3 <./figs/docker-eps-converted-to.pdf>]
+) (./sec.tex [3 <./figs/docker-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figs/security_hadoop.eps>
 (epstopdf)                    date: 2015-05-01 13:35:04
 (epstopdf)                    size: 2502051 bytes
@@ -572,7 +527,7 @@ onverted-to.pdf figs/security_hadoop.eps>
 (epstopdf)             \includegraphics on input line 26.
 Package epstopdf Info: Output file is already uptodate.
 
-<figs/security_hadoop-eps-converted-to.pdf, id=64, 706.64pt x 534.99875pt>
+<figs/security_hadoop-eps-converted-to.pdf, id=170, 706.64pt x 534.99875pt>
 File: figs/security_hadoop-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/security_hadoop-eps-converted-to.pdf>
@@ -586,10 +541,10 @@ Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no Ä in font ptmr7t!
 Missing character: There is no ô in font ptmr7t!
 
+Underfull \vbox (badness 2735) has occurred while \output is active []
 
-LaTeX Warning: Citation `khan2012hatman' on page 4 undefined on input line 39.
-
-) (./eval.tex
+)
+(./eval.tex
 Overfull \hbox (8.53038pt too wide) in paragraph at lines 14--32
 [][] 
  []
@@ -604,9 +559,99 @@ Package epstopdf Info: Source file: <figs/code.eps>
 .pdf figs/code.eps>
 (epstopdf)             \includegraphics on input line 41.
 Package epstopdf Info: Output file is already uptodate.
-<figs/code-eps-converted-to.pdf, id=65, 534.99875pt x 222.8325pt>
+<figs/code-eps-converted-to.pdf, id=172, 534.99875pt x 222.8325pt>
 File: figs/code-eps-converted-to.pdf Graphic file (type pdf)
 
+<use figs/code-eps-converted-to.pdf>
+Package pdftex.def Info: figs/code-eps-converted-to.pdf used on input line 41.
+(pdftex.def)             Requested size: 216.81pt x 90.30446pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ú in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ù in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ú in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ù in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ú in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ù in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ú in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ù in font ptmr7t!
+
+Underfull \hbox (badness 1152) in paragraph at lines 49--50
+[]\OT1/ptm/m/n/10 The re-sults of jps com-mand will present you the
+ []
+
+[4 <./figs/security_hadoop-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <figs/command.eps>
+(epstopdf)                    date: 2015-05-01 13:35:04
+(epstopdf)                    size: 471301 bytes
+(epstopdf)             Output file: <figs/command-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-05-01 13:35:04
+(epstopdf)                    size: 30543 bytes
+(epstopdf)             Command: <repstopdf --outfile=figs/command-eps-converted
+-to.pdf figs/command.eps>
+(epstopdf)             \includegraphics on input line 55.
+Package epstopdf Info: Output file is already uptodate.
+
+<figs/command-eps-converted-to.pdf, id=189, 680.5425pt x 193.72375pt>
+File: figs/command-eps-converted-to.pdf Graphic file (type pdf)
+
+<use figs/command-eps-converted-to.pdf>
+Package pdftex.def Info: figs/command-eps-converted-to.pdf used on input line 5
+5.
+(pdftex.def)             Requested size: 216.81pt x 61.71796pt.
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ú in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ù in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ú in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ù in font ptmr7t!
+
+<figs/attack.png, id=190, 1927.2pt x 1084.05pt>
+File: figs/attack.png Graphic file (type png)
+ <use figs/attack.png>
+Package pdftex.def Info: figs/attack.png used on input line 67.
+(pdftex.def)             Requested size: 216.81pt x 121.9421pt.
+)
+(./design.tex
+Overfull \hbox (8.53038pt too wide) in paragraph at lines 14--32
+[][] 
+ []
+
+Package epstopdf Info: Source file: <figs/code.eps>
+(epstopdf)                    date: 2015-05-01 13:35:04
+(epstopdf)                    size: 1488202 bytes
+(epstopdf)             Output file: <figs/code-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-05-01 13:35:04
+(epstopdf)                    size: 34604 bytes
+(epstopdf)             Command: <repstopdf --outfile=figs/code-eps-converted-to
+.pdf figs/code.eps>
+(epstopdf)             \includegraphics on input line 41.
+Package epstopdf Info: Output file is already uptodate.
+File: figs/code-eps-converted-to.pdf Graphic file (type pdf)
 <use figs/code-eps-converted-to.pdf>
 Package pdftex.def Info: figs/code-eps-converted-to.pdf used on input line 41.
 (pdftex.def)             Requested size: 216.81pt x 90.30446pt.
@@ -649,114 +694,163 @@ Package epstopdf Info: Source file: <figs/command.eps>
 -to.pdf figs/command.eps>
 (epstopdf)             \includegraphics on input line 55.
 Package epstopdf Info: Output file is already uptodate.
-<figs/command-eps-converted-to.pdf, id=66, 680.5425pt x 193.72375pt>
 File: figs/command-eps-converted-to.pdf Graphic file (type pdf)
-
 <use figs/command-eps-converted-to.pdf>
 Package pdftex.def Info: figs/command-eps-converted-to.pdf used on input line 5
 5.
 (pdftex.def)             Requested size: 216.81pt x 61.71796pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no Ä in font ptmr7t!
 Missing character: There is no ú in font ptmr7t!
 Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no Ä in font ptmr7t!
 Missing character: There is no ù in font ptmr7t!
-[4 <./figs/security_hadoop-eps-converted-to.pdf> <./figs/code-eps-converted-to.
-pdf>]
 Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no Ä in font ptmr7t!
 Missing character: There is no ú in font ptmr7t!
 Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no Ä in font ptmr7t!
 Missing character: There is no ù in font ptmr7t!
- <figs/attack.png, id=94, 1927.2pt x 1084.05pt>
+ [5 <./figs/code-eps-converted-to.pdf> <./figs/command-eps-converted-to.pdf> <.
+/figs/attack.png>]
 File: figs/attack.png Graphic file (type png)
- <use figs/attack.png>
+
+<use figs/attack.png>
 Package pdftex.def Info: figs/attack.png used on input line 67.
 (pdftex.def)             Requested size: 216.81pt x 121.9421pt.
-)
-(./discussion.tex
-Underfull \hbox (badness 1117) in paragraph at lines 33--34
-[]\OT1/ptm/m/n/10 Docker now is build-ing tools for launch-ing cloud
+) (./relwork.tex) (./conc.tex) (./main.bbl
+Underfull \hbox (badness 3118) in paragraph at lines 4--6
+[]\OT1/ptm/m/n/10 Apache oozie work-flow sched-uler for hadoop.
  []
 
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ¢ in font ptmr7t!
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ¢ in font ptmr7t!
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ¢ in font ptmr7t!
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ¢ in font ptmr7t!
-) (./relwork.tex
 
-LaTeX Warning: Citation `khan2012hatman' on page 5 undefined on input line 9.
+Underfull \hbox (badness 10000) in paragraph at lines 8--10
+[]\OT1/ptm/m/n/10 Aws|amazon elas-tic mapre-duce(emr)|hadoop
+ []
 
 
-LaTeX Warning: Citation `cohen2012incorporating' on page 5 undefined on input l
-ine 16.
-
-[5 <./figs/command-eps-converted-to.pdf> <./figs/attack.png>]
-
-LaTeX Warning: Citation `wei2009securemr' on page 6 undefined on input line 24.
+Underfull \hbox (badness 10000) in paragraph at lines 16--19
+[]\OT1/ptm/m/n/10 Docker con-tainer ex-ecu-tor.  [][]$\OT1/pcr/m/n/10 https :
+ []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 16--19
+\OT1/pcr/m/n/10 / / hadoop . apache . org / docs / r2 . 6 .
+ []
 
-LaTeX Warning: Citation `wang2011viaf' on page 6 undefined on input line 30.
 
-) (./conc.tex)
-No file main.bbl.
+Underfull \hbox (badness 10000) in paragraph at lines 16--19
+\OT1/pcr/m/n/10 0 / hadoop-[]yarn / hadoop-[]yarn-[]site /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--24
+[]\OT1/ptm/m/n/10 Hadoop in se-cure mode.  [][]$\OT1/pcr/m/n/10 http : / /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--24
+\OT1/pcr/m/n/10 hadoop . apache . org / docs / current /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--24
+\OT1/pcr/m/n/10 hadoop-[]project-[]dist / hadoop-[]common /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--24
+\OT1/pcr/m/n/10 SecureMode . html # Kerberos _
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--24
+\OT1/pcr/m/n/10 principals _ for _ Hadoop _ Daemons _
+ []
+
+
+Underfull \hbox (badness 3612) in paragraph at lines 26--29
+[]\OT1/ptm/m/n/10 Hadoop-the power of the ele-phant.  [][]$\OT1/pcr/m/n/10 http
+ :
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--29
+\OT1/pcr/m/n/10 / / www . ebaytechblog . com / 2010 / 10 / 29 /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--42
+[]\OT1/ptm/m/n/10 How face-book uses hadoop and hive.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--42
+[][]$\OT1/pcr/m/n/10 http : / / http : / / hortonworks .
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--42
+\OT1/pcr/m/n/10 com / big-[]data-[]insights /
+ []
+
+
+Overfull \hbox (0.78241pt too wide) in paragraph at lines 39--42
+\OT1/pcr/m/n/10 how-[]facebook-[]uses-[]hadoop-[]and-[]hive/$[][]\OT1/ptm/m/n/1
+0 . 
+ []
+
+
+Underfull \hbox (badness 1354) in paragraph at lines 44--46
+\OT1/ptm/m/n/10 data.  [][]$\OT1/pcr/m/n/10 http : / / www . wired . com / 2011
+ / 10 /
+ []
+
+[6]
+Underfull \hbox (badness 1067) in paragraph at lines 56--58
+[]\OT1/ptm/m/n/10 Zookeeper - apache soft-ware foun-da-tion project
+ []
+
+
+Underfull \hbox (badness 1221) in paragraph at lines 56--58
+\OT1/ptm/m/n/10 home page.  [][]$\OT1/pcr/m/n/10 http : / / zookeeper . apache 
+.
+ []
+
+)
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 50.
-[6
+ [7
 
 ]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 50.
  (./main.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 50.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 50.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: B7882949F0315D1E8E509D5026C77BCD;1114.
 
 
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  AF538003FB22E1FE8E9EDDBDAACF1DDF;1114.
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were multiply-defined labels.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 50.
  ) 
 Here is how much of TeX's memory you used:
- 7838 strings out of 493304
- 113718 string characters out of 6139871
- 207675 words of memory out of 5000000
- 11140 multiletter control sequences out of 15000+600000
- 20639 words of font info for 55 fonts, out of 8000000 for 9000
+ 7902 strings out of 493304
+ 114549 string characters out of 6139871
+ 211189 words of memory out of 5000000
+ 11170 multiletter control sequences out of 15000+600000
+ 21212 words of font info for 57 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 29i,9n,32p,1310b,401s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 29i,9n,32p,1310b,427s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/
 type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times
-/utmr8a.pfb>
-Output written on main.pdf (6 pages, 996468 bytes).
+/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (7 pages, 1021828 bytes).
 PDF statistics:
- 144 PDF objects out of 1000 (max. 8388607)
- 105 compressed objects within 2 object streams
- 31 named destinations out of 1000 (max. 500000)
- 36 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 297 PDF objects out of 1000 (max. 8388607)
+ 255 compressed objects within 3 object streams
+ 55 named destinations out of 1000 (max. 500000)
+ 180 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,0 +1,104 @@
+\begin{thebibliography}{10}
+
+\bibitem{oozie}
+Apache oozie workflow scheduler for hadoop.
+\newblock \url{http://oozie.apache.org/}.
+
+\bibitem{amazon}
+Aws|amazon elastic mapreduce(emr)|hadoop mapreduce in the cloud.
+\newblock \url{http://aws.amazon.com/elasticmapreduce/}.
+
+\bibitem{docker}
+Docker.
+\newblock \url{https://www.docker.com/}.
+
+\bibitem{dce}
+Docker container executor.
+\newblock
+  \url{https://hadoop.apache.org/docs/r2.6.0/hadoop-yarn/hadoop-yarn-site/DockerContainerExecutor.html}.
+
+\bibitem{securemode}
+Hadoop in secure mode.
+\newblock
+  \url{http://hadoop.apache.org/docs/current/hadoop-project-dist/hadoop-common/SecureMode.html#Kerberos_principals_for_Hadoop_Daemons_and_Users/}.
+
+\bibitem{ebay}
+Hadoop-the power of the elephant.
+\newblock
+  \url{http://www.ebaytechblog.com/2010/10/29/hadoop-the-power-of-the-elephant/}.
+
+\bibitem{hbase}
+Hbase - apache software foundation project home page.
+\newblock \url{http://hbase.apache.org/}.
+
+\bibitem{hive}
+Hive - apache software foundation project home page.
+\newblock \url{http://hive.apache.org/}.
+
+\bibitem{facebook}
+How facebook uses hadoop and hive.
+\newblock
+  \url{http://http://hortonworks.com/big-data-insights/how-facebook-uses-hadoop-and-hive/}.
+
+\bibitem{yahoo}
+How yahoo spawned hadoop, the future of big data.
+\newblock \url{http://www.wired.com/2011/10/how-yahoo-spawned-hadoop/}.
+
+\bibitem{pig}
+Pig - apache software foundation project home page.
+\newblock \url{http://pig.apache.org/}.
+
+\bibitem{hadoop}
+Welcome to apache hadoop.
+\newblock \url{http://hadoop.apache.org/}.
+
+\bibitem{zookeeper}
+Zookeeper - apache software foundation project home page.
+\newblock \url{http://zookeeper.apache.org/}.
+
+\bibitem{cohen2012incorporating}
+J.~C. Cohen and A.~Subatra.
+\newblock Incorporating hardware trust mechanisms in apache hadoop.
+\newblock {\em IEEE, sl}, pages 978--1, 2012.
+
+\bibitem{dean2008mapreduce}
+J.~Dean and S.~Ghemawat.
+\newblock Mapreduce: simplified data processing on large clusters.
+\newblock {\em Communications of the ACM}, 51(1):107--113, 2008.
+
+\bibitem{helsley2009lxc}
+M.~Helsley.
+\newblock Lxc: Linux container tools.
+\newblock {\em IBM devloperWorks Technical Library}, 2009.
+
+\bibitem{khan2012hatman}
+S.~M. Khan and K.~W. Hamlen.
+\newblock Hatman: Intra-cloud trust management for hadoop.
+\newblock In {\em Cloud Computing (CLOUD), 2012 IEEE 5th International
+  Conference on}, pages 494--501. IEEE, 2012.
+
+\bibitem{shvachko2010hadoop}
+K.~Shvachko, H.~Kuang, S.~Radia, and R.~Chansler.
+\newblock The hadoop distributed file system.
+\newblock In {\em Mass Storage Systems and Technologies (MSST), 2010 IEEE 26th
+  Symposium on}, pages 1--10. IEEE, 2010.
+
+\bibitem{thusoo2009hive}
+A.~Thusoo, J.~S. Sarma, N.~Jain, Z.~Shao, P.~Chakka, S.~Anthony, H.~Liu,
+  P.~Wyckoff, and R.~Murthy.
+\newblock Hive: a warehousing solution over a map-reduce framework.
+\newblock {\em Proceedings of the VLDB Endowment}, 2(2):1626--1629, 2009.
+
+\bibitem{wang2011viaf}
+Y.~Wang and J.~Wei.
+\newblock Viaf: Verification-based integrity assurance framework for mapreduce.
+\newblock In {\em Cloud Computing (CLOUD), 2011 IEEE International Conference
+  on}, pages 300--307. IEEE, 2011.
+
+\bibitem{wei2009securemr}
+W.~Wei, J.~Du, T.~Yu, and X.~Gu.
+\newblock Securemr: A service integrity assurance framework for mapreduce.
+\newblock In {\em Computer Security Applications Conference, 2009. ACSAC'09.
+  Annual}, pages 73--82. IEEE, 2009.
+
+\end{thebibliography}

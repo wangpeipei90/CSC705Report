@@ -18,9 +18,9 @@ Hadoop is a large-scale data processing framework that is designed to scale up f
 
 HDFS(storage) and MapReduce~\cite{dean2008mapreduce} (processing) are the two core components of Hadoop. As it is depicted from Figure 1,the main components of HDFS are NameNode, DataNodes, and Secondary NameNode. NameNode is the master of the system which maintains the name system (directories and files) and manages the blocks which are present on the DataNodes. DataNodes are the slaves which are deployed on each machine and provide the actual storage. Secondary NameNode is not a back up server of Namenode, which is responsible for performing periodic checkpoints. The main components of MapReduce are JobTracker and Tasktracker. JobTracker is the master of the system which manages the jobs and resources in the cluster (TaskTrackers). TaskTrackers are the slaves which are deployed on each machine. They are responsible for running the map and reduce tasks as instructed by the JobTracker.
 
-\iffalse
-The most important aspect of Hadoop is that both HDFS and MapReduce are designed with each other in mind and each are co-deployed such that there is a single cluster and thus provides the ability to move computation to the data not the other way around. Thus, the storage system is not physically separate from a processing system.
-\fi
+%\iffalse
+%The most important aspect of Hadoop is that both HDFS and MapReduce are designed with each other in mind and each are co-deployed such that there is a single cluster and thus provides the ability to move computation to the data not the other way around. Thus, the storage system is not physically separate from a processing system.
+%\fi
 
 However, Hadoop 1.x is not scalable enough and has many limitations. There is no horizontal scalability of NameNode and it does not support NameNode High Availability. It can only support up to 4,000 nodes per cluster. Map and Reduce task slots are static. The JobTracker is responsible for both resource management and job scheduling, so it is so overburdened that it becomes the bottleneck of Hadoop. 
 
@@ -28,7 +28,7 @@ However, Hadoop 1.x is not scalable enough and has many limitations. There is no
   \centering
   \includegraphics[width=3in]{figs/yarn.eps}
   \caption{Hadoop YARN components}
-  \label{fig:overview}
+  \label{fig:yarnoverview}
 \end{figure}
 
 Therefore, Hadoop 2.x or Hadoop YARN is developed to handle the scalability problem in Hadoop, see Figure 2. The fundamental idea of Haoop 2.x is to split up the two major functionalities of the JobTracker, resource management and job scheduling, into separate daemons. HDFS does not change in Hadoop 2.x. The YARN component is introduced to replace JobTracker. It has three components: ResourceManager, NodeManager and ApplicationMaster. ResourceManager is the master that arbitrates all the available cluster resources and thus helps manage the distributed applications running on the YARN system. The NodeManager is YARN’s per-node agent, and takes care of the individual compute nodes in a Hadoop cluster, such as keeping up-to date with the ResourceManager, overseeing containers’ life-cycle management, monitoring resource usage (memory, CPU) of individual containers, etc. The ApplicationMaster is, in effect, an instance of a framework-specific library and is responsible for negotiating resources from the ResourceManager and working with the NodeManager(s) to execute and monitor the containers and their resource consumption. It has the responsibility of negotiating appropriate resource containers from the ResourceManager, tracking their status and monitoring progress.
@@ -44,7 +44,7 @@ As we can see from the Figure 3, the Docker Engine Container compromises just th
   \centering
   \includegraphics[width=2in]{figs/docker.eps}
   \caption{Docker}
-  \label{fig:overview}
+  \label{fig:Dockeroverview}
 \end{figure}
 
 Docker has recently been officially integrated into Hadoop 2.0(YARN), where big data tasks such as MapReduce mappers and reducers run on individual containers. The marriage of Hadoop jobs with containers offers considerable benefits compared to running these jobs on VMs(in Hadoop 1.0). These include shorter provisioning time, more light weight migration, better performance isolation, bypassing virtual I/Os, and higher resource utilization since a single machine can accommodate more containers than VMs. 

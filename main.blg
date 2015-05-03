@@ -1,0 +1,60 @@
+This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: main.aux
+The style file: abbrv.bst
+Database file #1: main.bib
+Warning--to sort, need author or key in hadoop
+Warning--to sort, need author or key in facebook
+Warning--to sort, need author or key in amazon
+Warning--to sort, need author or key in ebay
+Warning--to sort, need author or key in yahoo
+Warning--to sort, need author or key in hive
+Warning--to sort, need author or key in hbase
+Warning--to sort, need author or key in pig
+Warning--to sort, need author or key in zookeeper
+Warning--to sort, need author or key in securemode
+Warning--to sort, need author or key in docker
+Warning--to sort, need author or key in dce
+Warning--to sort, need author or key in oozie
+You've used 21 entries,
+            2118 wiz_defined-function locations,
+            583 strings with 6426 characters,
+and the built_in function-call counts, 5481 in all, are:
+= -- 548
+> -- 166
+< -- 5
++ -- 74
+- -- 52
+* -- 292
+:= -- 756
+add.period$ -- 54
+call.type$ -- 21
+change.case$ -- 89
+chr.to.int$ -- 0
+cite$ -- 34
+duplicate$ -- 229
+empty$ -- 559
+format.name$ -- 52
+if$ -- 1266
+int.to.chr$ -- 0
+int.to.str$ -- 21
+missing$ -- 8
+newline$ -- 95
+num.names$ -- 16
+pop$ -- 162
+preamble$ -- 1
+purify$ -- 68
+quote$ -- 0
+skip$ -- 210
+stack$ -- 0
+substring$ -- 295
+swap$ -- 64
+text.length$ -- 5
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 84
+warning$ -- 13
+while$ -- 35
+width$ -- 23
+write$ -- 184
+(There were 13 warnings)
