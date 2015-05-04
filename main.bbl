@@ -15,7 +15,16 @@ Docker.
 \bibitem{dce}
 Docker container executor.
 \newblock
-  \url{https://hadoop.apache.org/docs/r2.6.0/hadoop-yarn/hadoop-yarn-site/DockerContainerExecutor.html}.
+  \url{http://hadoop.apache.org/docs/r2.6.0/hadoop-yarn/hadoop-yarn-site/DockerContainerExecutor.html}.
+
+\bibitem{droplxc}
+Docker drops lxc as default execution environment.
+\newblock \url{http://www.infoq.com/news/2014/03/docker_0_9/}.
+
+\bibitem{non-root}
+Enabling non-root users to run docker commands.
+\newblock
+  \url{https://docs.oracle.com/cd/E52668_01/E54669/html/section_rdz_hmw_2q.html/}.
 
 \bibitem{securemode}
 Hadoop in secure mode.
@@ -31,6 +40,11 @@ Hadoop-the power of the elephant.
 Hbase - apache software foundation project home page.
 \newblock \url{http://hbase.apache.org/}.
 
+\bibitem{encryption}
+Hdfs encryption.
+\newblock
+  \url{http://blog.cloudera.com/blog/2014/06/projectrhino-goal-at-rest-encryption/}.
+
 \bibitem{hive}
 Hive - apache software foundation project home page.
 \newblock \url{http://hive.apache.org/}.
@@ -38,15 +52,31 @@ Hive - apache software foundation project home page.
 \bibitem{facebook}
 How facebook uses hadoop and hive.
 \newblock
-  \url{http://http://hortonworks.com/big-data-insights/how-facebook-uses-hadoop-and-hive/}.
+  \url{http://hortonworks.com/big-data-insights/how-facebook-uses-hadoop-and-hive/}.
 
 \bibitem{yahoo}
 How yahoo spawned hadoop, the future of big data.
 \newblock \url{http://www.wired.com/2011/10/how-yahoo-spawned-hadoop/}.
 
+\bibitem{jails}
+Jails-freebsd wiki.
+\newblock \url{https://wiki.freebsd.org/Jails}.
+
+\bibitem{openvz}
+Openvz-linux containers wiki.
+\newblock \url{https://openvz.org/Main_Page/}.
+
 \bibitem{pig}
 Pig - apache software foundation project home page.
 \newblock \url{http://pig.apache.org/}.
+
+\bibitem{least}
+Principle of least privilege.
+\newblock \url{http://en.wikipedia.org/wiki/Principle_of_least_privilege}.
+
+\bibitem{rootdocker}
+Security-docker documentation.
+\newblock \url{https://docs.docker.com/articles/security/}.
 
 \bibitem{hadoop}
 Welcome to apache hadoop.
@@ -55,6 +85,26 @@ Welcome to apache hadoop.
 \bibitem{zookeeper}
 Zookeeper - apache software foundation project home page.
 \newblock \url{http://zookeeper.apache.org/}.
+
+\bibitem{basescu2011managing}
+C.~Basescu, A.~Carpen-Amarie, C.~Leordeanu, A.~Costan, and G.~Antoniu.
+\newblock Managing data access on clouds: A generic framework for enforcing
+  security policies.
+\newblock In {\em Advanced Information Networking and Applications (AINA), 2011
+  IEEE International Conference on}, pages 459--466. IEEE, 2011.
+
+\bibitem{cohen2013towards}
+J.~Cohen and S.~Acharya.
+\newblock Towards a more secure apache hadoop hdfs infrastructure.
+\newblock In {\em Network and System Security}, pages 735--741. Springer, 2013.
+
+\bibitem{cohen2014towards}
+J.~C. Cohen and S.~Acharya.
+\newblock Towards a trusted hdfs storage platform: Mitigating threats to hadoop
+  infrastructures using hardware-accelerated encryption with tpm-rooted key
+  protection.
+\newblock {\em Journal of Information Security and Applications},
+  19(3):224--244, 2014.
 
 \bibitem{cohen2012incorporating}
 J.~C. Cohen and A.~Subatra.
@@ -66,10 +116,22 @@ J.~Dean and S.~Ghemawat.
 \newblock Mapreduce: simplified data processing on large clusters.
 \newblock {\em Communications of the ACM}, 51(1):107--113, 2008.
 
+\bibitem{elmeleegy2014spongefiles}
+K.~Elmeleegy, C.~Olston, and B.~Reed.
+\newblock Spongefiles: mitigating data skew in mapreduce using distributed
+  memory.
+\newblock In {\em Proceedings of the 2014 ACM SIGMOD international conference
+  on Management of data}, pages 551--562. ACM, 2014.
+
 \bibitem{helsley2009lxc}
 M.~Helsley.
 \newblock Lxc: Linux container tools.
 \newblock {\em IBM devloperWorks Technical Library}, 2009.
+
+\bibitem{jose2014privacy}
+R.~C. Jose and S.~Paul.
+\newblock Privacy in map reduce based systems: A review.
+\newblock 2014.
 
 \bibitem{khan2012hatman}
 S.~M. Khan and K.~W. Hamlen.
@@ -77,11 +139,84 @@ S.~M. Khan and K.~W. Hamlen.
 \newblock In {\em Cloud Computing (CLOUD), 2012 IEEE 5th International
   Conference on}, pages 494--501. IEEE, 2012.
 
+\bibitem{lin2012toward}
+H.-Y. Lin, S.-T. Shen, W.-G. Tzeng, and B.-S. Lin.
+\newblock Toward data confidentiality via integrating hybrid encryption schemes
+  and hadoop distributed file system.
+\newblock In {\em Advanced Information Networking and Applications (AINA), 2012
+  IEEE 26th International Conference on}, pages 740--747. IEEE, 2012.
+
+\bibitem{madaan2012implementation}
+S.~Madaan and R.~K. Agrawal.
+\newblock Implementation of identity based distributed cloud storage encryption
+  scheme using php and c for hadoop file system.
+\newblock In {\em Tier 2 Federation Grid, Cloud \& High Performance Computing
+  Science (RO-LCG), 2012 5th Romania}, pages 74--77. IEEE, 2012.
+
+\bibitem{o2010integrating}
+O.~O’Malley.
+\newblock Integrating kerberos into apache hadoop.
+\newblock In {\em Kerberos Conference}, pages 26--27, 2010.
+
+\bibitem{o2009hadoop}
+O.~O’Malley, K.~Zhang, S.~Radia, R.~Marti, and C.~Harrell.
+\newblock Hadoop security design.
+\newblock {\em Yahoo, Inc., Tech. Rep}, 2009.
+
+\bibitem{park2013secure}
+S.~Park and Y.~Lee.
+\newblock Secure hadoop with encrypted hdfs.
+\newblock In {\em Grid and Pervasive Computing}, pages 134--141. Springer,
+  2013.
+
+\bibitem{reddy2013access}
+Y.~Reddy.
+\newblock Access control for sensitive data in hadoop distributed file systems.
+\newblock In {\em INFOCOMP 2013, The Third International Conference on Advanced
+  Communications and Computation}, pages 72--78, 2013.
+
+\bibitem{sadasivam2012novel}
+G.~Sadasivam, K.~Kumari, and S.~Rubika.
+\newblock A novel authentication service for hadoop in cloud environment.
+\newblock In {\em Cloud Computing in Emerging Markets (CCEM), 2012 IEEE
+  International Conference on}, pages 1--6. IEEE, 2012.
+
+\bibitem{shen2010security}
+Z.~Shen and Q.~Tong.
+\newblock The security of cloud computing system enabled by trusted computing
+  technology.
+\newblock In {\em Signal Processing Systems (ICSPS), 2010 2nd International
+  Conference on}, volume~2, pages V2--11. IEEE, 2010.
+
 \bibitem{shvachko2010hadoop}
 K.~Shvachko, H.~Kuang, S.~Radia, and R.~Chansler.
 \newblock The hadoop distributed file system.
 \newblock In {\em Mass Storage Systems and Technologies (MSST), 2010 IEEE 26th
   Symposium on}, pages 1--10. IEEE, 2010.
+
+\bibitem{steiner1988kerberos}
+J.~G. Steiner, B.~C. Neuman, and J.~I. Schiller.
+\newblock Kerberos: An authentication service for open network systems.
+\newblock In {\em USENIX Winter}, pages 191--202, 1988.
+
+\bibitem{subashini2011survey}
+S.~Subashini and V.~Kavitha.
+\newblock A survey on security issues in service delivery models of cloud
+  computing.
+\newblock {\em Journal of network and computer applications}, 34(1):1--11,
+  2011.
+
+\bibitem{sujitha2013improving}
+G.~Sujitha, M.~Varadharajan, Y.~V. Rao, R.~Sridev, M.~Gauthaum, S.~Narayanan,
+  R.~S. Raja, and S.~M. Shalinie.
+\newblock Improving security of parallel algorithm using key encryption
+  technique.
+\newblock {\em Information Technology Journal}, 12(12), 2013.
+
+\bibitem{tankard2012big}
+C.~Tankard.
+\newblock Big data security.
+\newblock {\em Network security}, 2012(7):5--8, 2012.
 
 \bibitem{thusoo2009hive}
 A.~Thusoo, J.~S. Sarma, N.~Jain, Z.~Shao, P.~Chakka, S.~Anthony, H.~Liu,
@@ -89,16 +224,52 @@ A.~Thusoo, J.~S. Sarma, N.~Jain, Z.~Shao, P.~Chakka, S.~Anthony, H.~Liu,
 \newblock Hive: a warehousing solution over a map-reduce framework.
 \newblock {\em Proceedings of the VLDB Endowment}, 2(2):1626--1629, 2009.
 
+\bibitem{tripathi2013hadoop}
+S.~Tripathi, B.~Gupta, A.~Almomani, A.~Mishra, and S.~Veluru.
+\newblock Hadoop based defense solution to handle distributed denial of service
+  (ddos) attacks.
+\newblock 2013.
+
+\bibitem{tseng2012implement}
+F.-H. Tseng, C.-Y. Chen, L.-D. Chou, and H.-C. Chao.
+\newblock Implement a reliable and secure cloud distributed file system.
+\newblock In {\em Intelligent Signal Processing and Communications Systems
+  (ISPACS), 2012 International Symposium on}, pages 227--232. IEEE, 2012.
+
+\bibitem{vavilapalli2013apache}
+V.~K. Vavilapalli, A.~C. Murthy, C.~Douglas, S.~Agarwal, M.~Konar, R.~Evans,
+  T.~Graves, J.~Lowe, H.~Shah, S.~Seth, et~al.
+\newblock Apache hadoop yarn: Yet another resource negotiator.
+\newblock In {\em Proceedings of the 4th annual Symposium on Cloud Computing},
+  page~5. ACM, 2013.
+
 \bibitem{wang2011viaf}
 Y.~Wang and J.~Wei.
 \newblock Viaf: Verification-based integrity assurance framework for mapreduce.
 \newblock In {\em Cloud Computing (CLOUD), 2011 IEEE International Conference
   on}, pages 300--307. IEEE, 2011.
 
+\bibitem{wei2014security}
+L.~Wei, H.~Zhu, Z.~Cao, X.~Dong, W.~Jia, Y.~Chen, and A.~V. Vasilakos.
+\newblock Security and privacy for storage and computation in cloud computing.
+\newblock {\em Information Sciences}, 258:371--386, 2014.
+
 \bibitem{wei2009securemr}
 W.~Wei, J.~Du, T.~Yu, and X.~Gu.
 \newblock Securemr: A service integrity assurance framework for mapreduce.
 \newblock In {\em Computer Security Applications Conference, 2009. ACSAC'09.
   Annual}, pages 73--82. IEEE, 2009.
+
+\bibitem{zhou2014new}
+H.~Zhou and Q.~Wen.
+\newblock A new solution of data security accessing for hadoop based on cp-abe.
+\newblock In {\em Software Engineering and Service Science (ICSESS), 2014 5th
+  IEEE International Conference on}, pages 525--528. IEEE, 2014.
+
+\bibitem{zhou2010security}
+M.~Zhou, R.~Zhang, W.~Xie, W.~Qian, and A.~Zhou.
+\newblock Security and privacy in cloud computing: A survey.
+\newblock In {\em Semantics Knowledge and Grid (SKG), 2010 Sixth International
+  Conference on}, pages 105--112. IEEE, 2010.
 
 \end{thebibliography}

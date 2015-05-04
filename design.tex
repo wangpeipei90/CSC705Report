@@ -1,70 +1,27 @@
 \section{Discussion and Design}
 \label{sec:design}
-
 \iffalse
 Evaluation (don't forget to interpret your data)
 \fi
+In this section, we propose solutions to the two existing security problems with Docker and discuss the problems with these solutions.
 
-\subsection{Experiment platform}
+One proposed solution for requirement of root privileges of Docker daemon is to enable non-root users to run Docker commands~\cite{non-root}. The main idea is to create the {\em docker} group, configure docker as a system service, and add the users which should have Docker access into docker group. In this way, only trusted users belonging to docker group can run Docker commands and thus it prevents unauthorized users from interrupting the MapReduce job execution. The problem of this solution is that it increase the security risks. By default Docker daemon or service only listen to socket allowed by root users. By allows non-root users to access Docker, non-root users could gain root access on the host.
 
-The experiment platform is shown in the table.
+The other problem with Docker is its incompatibility with Kerberos. Kerberos mainly consists of the KDC key distribution center which is a centralized authentication service. It works in a realm which helps with the fully qualified domain name of the hosts. It contains a database which
+contains the principle identifiers with their secret keys. The main idea is as follows:
+\begin{itemize}
+\item {The host requests access at Key Distribution Center(KDC). The authentication server at the KDC looks up for its identification in the local database and accordingly grants ticket.}
+\item {The NameNode checks for the details and if the client is valid accordingly issues the ticket to the client. The client and the DataNode exchange shared key for message exchange.}
+\item {The client then sends the ticket along with the shared key to the DataNode for further communication.}
+\end{itemize}
 
-\begin{table}[ht]
+There are two difficulties of combining the Docker container and Kerberos. One is that Docker containers are created dynamically and every Docker container needs to communicate with KDC and then to be added to the database. Since there are large number of the Docker containers being created and terminated, the communication with KDC is costly and adds high overhead to the Hadoop Job execution. The second difficulty is that the permissions of the Docker containers needs to be added to the NameNode so that the NameNode could validate whether the Docker container has permissions or not. However, the permissions of the Docker containers depend on the Map or Reduce tasks assigned to them and it is very hard to determine their permissions before the containers are created.
 
-\begin{tabular}{|l|l|}
-\hline 
-Name & Version \\ 
-\hline 
-CPU & 4 cores, Intel(R) Core(TM) i7-3770 \\
-& CPU @ 3.4GHz \\ 
-\hline 
-Memory & 16 GB \\ 
-\hline 
-Operating System & Ubuntu 14.04.2 LTS \\ 
-\hline 
-Hadoop & Version 2.6.0, per \\ 
-\hline 
-Docker & Version 1.5.0, build a8a31ef \\ 
-\hline 
-Disk & Usage less than 90\% \\ 
-\hline 
-\end{tabular}
-\end{table}
+One solution for this incompatibility problem is configuring all Docker containers with same Kerberos principals and same permissions. While using same Kerberos principals avoids the communication overhead and using same permissions allows unchanged configurations, it contradicts with the principle of least privileges~\cite{least}. The undifferentiated principals and permissions would grant the Docker containers unnecessary privileges and impose potential security risks to Hadoop nodes.
 
-
-\subsection{Hadoop setup with Docker configuration}
-
-We suppose that Hadoop is already installed in Pseudo-Distributed mode, and Docker is also installed. Firstly, we download docker image for Hadoop docker container.Then, we add the following properties to yarn-site.xml:
-
-\begin{figure}[h]
-  \centering
-  \includegraphics[width=3in]{figs/code.eps}
-  \label{fig:codeoverview}
-\end{figure}
-
-In order for Hadoop to use Docker container, we need to change the permission of docker command with “sudo chmod u+s /usr/bin/docker”.
-
-Go to the directory of Hadoop installation, and start Hadoop with “sbin/start-dfs.sh” and “sbin/start-yarn.sh”. 
-
-The results of  “jps” command will present you the running processes: NameNode, SecondaryNameNode, DataNode, ResourceManager, NodeManager.
-
-To test the usage of Docker container in Hadoop, we use one Hadoop example program teragen to generate 1000 bytes of data. The command is as follows:
-
-\begin{figure}[h]
-  \centering
-  \includegraphics[width=3in]{figs/command.eps}
-  \label{fig:commandoverview}
-\end{figure}
-
-After the job is launched to execute, “docker ps” command shows that there are 3 containers that are launched to run the Teragen program. The 3 containers terminate after the job is finished.
-
-\subsection{Example attack}
-
-Since docker is being able to run by any user, use “docker stop containerID” could terminate the containers which are running MapReduce jobs. In this way, the malicious user could introduce failures to jobs. The screenshot is shown as below.
-
-\begin{figure}[t]
-  \centering
-  \includegraphics[width=3in]{figs/attack.png}
-  \caption{Attack experiment}
-  \label{fig:attackoverview}
-\end{figure}
+Another solution for the incompatibility problem is to discard Kerberos and to build new authorization framework that would be compatible with the Docker container. The main idea is as follows:
+\begin{itemize}
+\item {Configure permissions of the Docker container when user submit the MapReduce jobs.}
+\item {The NameNode validates and records the permissions when launching the Docker containers to perform tasks.}
+\item {The NameNode compares the access request from the Docker containers with the recorded permissions and decide whether to grant or reject the request.}
+\end{itemize}

@@ -15,46 +15,55 @@ Warning--to sort, need author or key in zookeeper
 Warning--to sort, need author or key in securemode
 Warning--to sort, need author or key in docker
 Warning--to sort, need author or key in dce
+Warning--to sort, need author or key in droplxc
+Warning--to sort, need author or key in openvz
+Warning--to sort, need author or key in jails
 Warning--to sort, need author or key in oozie
-You've used 21 entries,
+Warning--to sort, need author or key in rootdocker
+Warning--to sort, need author or key in non-root
+Warning--to sort, need author or key in least
+Warning--to sort, need author or key in encryption
+Warning--empty journal in jose2014privacy
+Warning--empty journal in tripathi2013hadoop
+You've used 51 entries,
             2118 wiz_defined-function locations,
-            583 strings with 6426 characters,
-and the built_in function-call counts, 5481 in all, are:
-= -- 548
-> -- 166
-< -- 5
-+ -- 74
-- -- 52
-* -- 292
-:= -- 756
-add.period$ -- 54
-call.type$ -- 21
-change.case$ -- 89
+            724 strings with 11842 characters,
+and the built_in function-call counts, 16510 in all, are:
+= -- 1662
+> -- 649
+< -- 21
++ -- 272
+- -- 216
+* -- 983
+:= -- 2407
+add.period$ -- 149
+call.type$ -- 51
+change.case$ -- 260
 chr.to.int$ -- 0
-cite$ -- 34
-duplicate$ -- 229
-empty$ -- 559
-format.name$ -- 52
-if$ -- 1266
+cite$ -- 73
+duplicate$ -- 691
+empty$ -- 1475
+format.name$ -- 216
+if$ -- 3726
 int.to.chr$ -- 0
-int.to.str$ -- 21
-missing$ -- 8
-newline$ -- 95
-num.names$ -- 16
-pop$ -- 162
+int.to.str$ -- 51
+missing$ -- 31
+newline$ -- 238
+num.names$ -- 62
+pop$ -- 407
 preamble$ -- 1
-purify$ -- 68
+purify$ -- 209
 quote$ -- 0
-skip$ -- 210
+skip$ -- 581
 stack$ -- 0
-substring$ -- 295
-swap$ -- 64
-text.length$ -- 5
+substring$ -- 930
+swap$ -- 223
+text.length$ -- 21
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 84
-warning$ -- 13
-while$ -- 35
-width$ -- 23
-write$ -- 184
-(There were 13 warnings)
+type$ -- 204
+warning$ -- 22
+while$ -- 132
+width$ -- 53
+write$ -- 494
+(There were 22 warnings)

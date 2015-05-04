@@ -1,30 +1,30 @@
 \section{Related Work}
 \label{sec:relwork}
-
 \iffalse
 Related Work (``somewhat related'' work goes here; directly related work
 goes into the Introduction)~\cite{dsd13}.
 \fi
+\paragraph{Hadoop Secrecy and Integrity:} With the growing use of Hadoop to tackle big data analytics involving sensitive data, data and computation integrity and security are major concerns for users of cloud computing facilities. Both Hadoop MapReduce and HDFS suffer from the integrity assurance vulnerability. Many production-level clouds optimistically assume that all cloud nodes are equally trustworthy when dispatching jobs; jobs are dispatched based on node load, not reputation. This increases their vulnerability to attack, since compromising even one node suffices to corrupt the integrity of many distributed computations. 
 
-Hatman~\cite{khan2012hatman} is the first full-scale, data-centric, reputation-based trust management system for Hadoop clouds. Hatman dynamically assesses node integrity by comparing job replica outputs for consistency.
+Hatman~\cite{khan2012hatman} is the first full-scale, data-centric, reputation-based trust management system for Hadoop clouds. Hatman dynamically assesses node integrity by comparing job replica outputs for consistency. 
 
-Data and computation integrity and security are major concerns for users of cloud computing facilities. Many production-level clouds optimistically assume that all cloud nodes are equally trustworthy when dispatching jobs; jobs are dispatched based on node load, not reputation. This increases their vulnerability to attack, since compromising even one node suffices to corrupt the integrity of many distributed computations.
+Jason.et.al presented another work~\cite{cohen2012incorporating} that improves the integrity and secrecy of data for HDFS by incorporating Hardware Trust Mechanisms in Hadoop. This paper leverages the Trusted Platform Module(TPM) and technology based on the Trusted Computing Group (TCG) standards and pairs these technologies with HDFS storage at the infrastructure and application levels. 
 
+SecureMR~\cite{wei2009securemr} is a practical service integrity assurance framework for MapReduce. SecureMR consists of five security components, which provide a set of practical security mechanisms that not only ensure MapReduce service integrity as well as to prevent replay and denial of service (DoS) attacks, but also preserve the simplicity, applicability and scalability of MapReduce.
 
+While it takes merely one malicious worker to render the overall computation result useless, the existing solutions are effective in defeating the malicious behavior of non-collusive workers, but are futile in detecting collusive workers. Verification-based Integrity Assurance Framework(IAF)~\cite{wang2011viaf} is one framework to detect both non-collusive and collusive mappers by combining task replication with non-deterministic verification so that consistent but malicious results from collusive mappers can be detected by a trusted verifier.
 
+Our work is different from these works. Instead of proposing frameworks for solving security problems, we explores the newest features in Hadoop, points out the potential risks and discusses the trade-off of different solutions.
+\paragraph{Hadoop Security Framework and Evaluation:} ～\cite{zhou2014new,tripathi2013hadoop} talk of solutions for Hadoop based set-ups. ~\cite{reddy2013access} focuses on access control within HDFS. It discusses a dependable security model and explains how it differs from existing federated systems. Further, it discusses the difference between securities in federated systems and general distributed systems.
 
-With the growing use of Hadoop to tackle big data analytics involving sensitive data, a Hadoop cluster could be a target for data exfiltration~\cite{cohen2012incorporating},
+~\cite{jose2014privacy,shen2010security,subashini2011survey,tankard2012big,zhou2010security} are surveys of the security in MapReduce Implementation Systems and big data security in general. Data security and privacy have also been discussed in ~\cite{madaan2012implementation,tseng2012implement,wei2014security}. These give a slightly higher level picture of the danger in the clouds in terms of data privacy. ~\cite{basescu2011managing} speaks of a security management framework which can facilitate enforcement of security policies. It basically attempts to prevent a DOS attack.
 
-long persistent attack: Advanced Persistent Threat (APT)
+~\cite{park2013secure,encryption} talks of HDFS encryption in particular. It talks about the affordable low computation overhead of their proposed encrypted HDFS which basically has file protection in data blocks. It does AES data encryption/decryption for the same. While ~\cite{o2009hadoop} discuss the hadoop security design in details, ~\cite{cohen2014towards,cohen2013towards,lin2012toward,sujitha2013improving} discuss about the attacks and threats on HDFS. They address the common security concern of Hadoop and propose an encryption scheme crypto framework for Hadoop. 
 
-By implementing open standards based Trusted Computing technology at the infrastructure and application levels; a novel and robust security posture and protection is presented. 
+SpongeFiles~\cite{elmeleegy2014spongefiles} talks of data skew in Hadoop MapReduce. It proposes a novel distributed-memory abstraction tailored to data processing environments. Although our work is not related to it, it gives an idea of the mitigation of disk spilling problem improving performance. 
 
+~\cite{steiner1988kerberos,o2010integrating} come up with Kerberos details and integration of Kerberos with Apache Hadoop. We have referred to it in details since we need to analyze the challenges of make Kerberos compatible with the Docker container.
 
+~\cite{sadasivam2012novel} proposes a novel authentication mechanism. They suggest three approaches for security enhancement in Hadoop environment based on triangle properties. An analysis on the security level and complexity of these approaches has been presented in it. 
 
-SecureMR~\cite{wei2009securemr}, a practical service integrity assurance framework for MapReduce. SecureMR consists of five security components, which provide a set of practical security mechanisms that not only ensure MapReduce service integrity as well as to prevent replay and denial of service (DoS) attacks, but also preserve the simplicity, applicability and scalability of MapReduce.
-
-
-
-MapReduce suffers from the integrity assurance vulnerability: it takes merely one malicious worker to render the overall computation result useless. Existing solutions are effective in defeating the malicious behavior of non-collusive workers, but are futile in detecting collusive workers.
-
-The basic idea of VIAF~\cite{wang2011viaf} is to combine task replication with non-deterministic verification, in which consistent but malicious results from collusive mappers can be detected by a trusted verifier.
+Through the related work, we find that not only are security vulnerabilities existing, which have not been rigorously tested, quality of service and performance using security enhancements also remains a potential concern. Although there are a considerable amount of related work for improving Hadoop security, we still strongly feel that security enhancement has been done very recently(e.g., adopting the Docker container technology into Hadoop) lacking a evaluation scheme. The discussion of reasons behind the benefits and weakness brought by the Docker container and the challenges are one of the missing parts of the current related work.

@@ -32,73 +32,132 @@
 \citation{dce}
 \citation{dce}
 \@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{1}{section.1}}
+\newlabel{intro}{{1}{1}{Introduction}{section.1}{}}
 \citation{dean2008mapreduce}
-\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Hadoop Overview}}{2}{figure.1}}
-\newlabel{fig:overview}{{1}{2}{Hadoop Overview}{figure.1}{}}
+\citation{vavilapalli2013apache}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Hadoop 1.x Architecture Overview}}{2}{figure.1}}
+\newlabel{fig:hadoop1.xoverview}{{1}{2}{Hadoop 1.x Architecture Overview}{figure.1}{}}
 \@writefile{toc}{\contentsline {section}{\numberline {2}Overview}{2}{section.2}}
 \newlabel{sec:overview}{{2}{2}{Overview}{section.2}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.1}Hadoop}{2}{subsection.2.1}}
-\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Hadoop YARN components}}{2}{figure.2}}
-\newlabel{fig:yarnoverview}{{2}{2}{Hadoop YARN components}{figure.2}{}}
 \citation{helsley2009lxc}
+\citation{droplxc}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Hadoop YARN components}}{3}{figure.2}}
+\newlabel{fig:yarnoverview}{{2}{3}{Hadoop YARN components}{figure.2}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.2}Docker in Hadoop}{3}{subsection.2.2}}
 \@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Docker}}{3}{figure.3}}
 \newlabel{fig:Dockeroverview}{{3}{3}{Docker}{figure.3}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {3}Hadoop Security}{3}{section.3}}
-\newlabel{security}{{3}{3}{Hadoop Security}{section.3}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Arbitrary code execution}{3}{subsection.3.1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Malicious user impersonation}{3}{subsection.3.2}}
+\citation{openvz}
+\citation{jails}
 \citation{oozie}
+\citation{hbase}
+\@writefile{toc}{\contentsline {section}{\numberline {3}Hadoop Security}{4}{section.3}}
+\newlabel{security}{{3}{4}{Hadoop Security}{section.3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Arbitrary code execution}{4}{subsection.3.1}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Security Framework}}{4}{figure.4}}
+\newlabel{fig:KerberosOverview}{{4}{4}{Security Framework}{figure.4}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Malicious user impersonation}{4}{subsection.3.2}}
 \citation{khan2012hatman}
-\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces A high-level architecture of our approach}}{4}{figure.4}}
-\newlabel{fig:securityoverview}{{4}{4}{A high-level architecture of our approach}{figure.4}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}Compromised nodes}{4}{subsection.3.3}}
-\@writefile{toc}{\contentsline {section}{\numberline {4}Evaluation}{4}{section.4}}
-\newlabel{sec:eval}{{4}{4}{Evaluation}{section.4}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Experiment platform}{4}{subsection.4.1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Hadoop setup with Docker configuration}{4}{subsection.4.2}}
-\newlabel{fig:Codeoverview}{{4.2}{5}{Hadoop setup with Docker configuration}{subsection.4.2}{}}
-\newlabel{fig:Commandoverview}{{4.2}{5}{Hadoop setup with Docker configuration}{subsection.4.2}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}Example attack}{5}{subsection.4.3}}
-\@writefile{toc}{\contentsline {section}{\numberline {5}Discussion and Design}{5}{section.5}}
-\newlabel{sec:design}{{5}{5}{Discussion and Design}{section.5}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.1}Experiment platform}{5}{subsection.5.1}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Attack experiment}}{5}{figure.5}}
-\newlabel{fig:attackoverview}{{5}{5}{Attack experiment}{figure.5}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.2}Hadoop setup with Docker configuration}{5}{subsection.5.2}}
-\newlabel{fig:codeoverview}{{5.2}{5}{Hadoop setup with Docker configuration}{subsection.5.2}{}}
-\newlabel{fig:commandoverview}{{5.2}{5}{Hadoop setup with Docker configuration}{subsection.5.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}Compromised nodes}{5}{subsection.3.3}}
+\@writefile{toc}{\contentsline {section}{\numberline {4}Evaluation}{5}{section.4}}
+\newlabel{sec:eval}{{4}{5}{Evaluation}{section.4}{}}
+\newlabel{experiment}{{4.1}{5}{Hadoop setup with Docker configuration}{subsection.4.1}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Docker container configurations in yarn-site.xml}}{5}{figure.5}}
+\newlabel{fig:CodeOverview}{{5}{5}{Docker container configurations in yarn-site.xml}{figure.5}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Hadoop setup with Docker configuration}{5}{subsection.4.1}}
+\citation{rootdocker}
+\citation{non-root}
+\citation{least}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Hadoop command to run Teragen with the Docker container}}{6}{figure.6}}
+\newlabel{fig:Commandoverview}{{6}{6}{Hadoop command to run Teragen with the Docker container}{figure.6}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces Attack experiment}}{6}{figure.7}}
+\newlabel{fig:AttackOverview}{{7}{6}{Attack experiment}{figure.7}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Example attack}{6}{subsection.4.2}}
+\@writefile{toc}{\contentsline {section}{\numberline {5}Discussion and Design}{6}{section.5}}
+\newlabel{sec:design}{{5}{6}{Discussion and Design}{section.5}{}}
 \citation{khan2012hatman}
 \citation{cohen2012incorporating}
 \citation{wei2009securemr}
 \citation{wang2011viaf}
+\citation{zhou2014new}
+\citation{tripathi2013hadoop}
+\citation{reddy2013access}
+\citation{jose2014privacy}
+\citation{shen2010security}
+\citation{subashini2011survey}
+\citation{tankard2012big}
+\citation{zhou2010security}
+\citation{madaan2012implementation}
+\citation{tseng2012implement}
+\citation{wei2014security}
+\citation{basescu2011managing}
+\citation{park2013secure}
+\citation{encryption}
+\citation{o2009hadoop}
+\citation{cohen2014towards}
+\citation{cohen2013towards}
+\citation{lin2012toward}
+\citation{sujitha2013improving}
+\citation{elmeleegy2014spongefiles}
+\citation{steiner1988kerberos}
+\citation{o2010integrating}
+\citation{sadasivam2012novel}
+\@writefile{toc}{\contentsline {section}{\numberline {6}Related Work}{7}{section.6}}
+\newlabel{sec:relwork}{{6}{7}{Related Work}{section.6}{}}
+\@writefile{toc}{\contentsline {paragraph}{Hadoop Secrecy and Integrity:}{7}{section*.2}}
+\@writefile{toc}{\contentsline {paragraph}{Hadoop Security Framework and Evaluation:}{7}{section*.3}}
 \bibstyle{abbrv}
 \bibdata{main}
 \bibcite{oozie}{1}
 \bibcite{amazon}{2}
 \bibcite{docker}{3}
 \bibcite{dce}{4}
-\bibcite{securemode}{5}
-\bibcite{ebay}{6}
-\bibcite{hbase}{7}
-\bibcite{hive}{8}
-\bibcite{facebook}{9}
-\bibcite{yahoo}{10}
-\bibcite{pig}{11}
-\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Attack experiment}}{6}{figure.6}}
-\newlabel{fig:attackoverview}{{6}{6}{Attack experiment}{figure.6}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.3}Example attack}{6}{subsection.5.3}}
-\@writefile{toc}{\contentsline {section}{\numberline {6}Related Work}{6}{section.6}}
-\newlabel{sec:relwork}{{6}{6}{Related Work}{section.6}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {7}Conclusion}{6}{section.7}}
-\newlabel{sec:conc}{{7}{6}{Conclusion}{section.7}{}}
-\bibcite{hadoop}{12}
-\bibcite{zookeeper}{13}
-\bibcite{cohen2012incorporating}{14}
-\bibcite{dean2008mapreduce}{15}
-\bibcite{helsley2009lxc}{16}
-\bibcite{khan2012hatman}{17}
-\bibcite{shvachko2010hadoop}{18}
-\bibcite{thusoo2009hive}{19}
-\bibcite{wang2011viaf}{20}
-\bibcite{wei2009securemr}{21}
+\bibcite{droplxc}{5}
+\bibcite{non-root}{6}
+\bibcite{securemode}{7}
+\bibcite{ebay}{8}
+\bibcite{hbase}{9}
+\bibcite{encryption}{10}
+\bibcite{hive}{11}
+\bibcite{facebook}{12}
+\bibcite{yahoo}{13}
+\bibcite{jails}{14}
+\bibcite{openvz}{15}
+\bibcite{pig}{16}
+\bibcite{least}{17}
+\bibcite{rootdocker}{18}
+\bibcite{hadoop}{19}
+\bibcite{zookeeper}{20}
+\bibcite{basescu2011managing}{21}
+\@writefile{toc}{\contentsline {section}{\numberline {7}Conclusion}{8}{section.7}}
+\newlabel{sec:conc}{{7}{8}{Conclusion}{section.7}{}}
+\bibcite{cohen2013towards}{22}
+\bibcite{cohen2014towards}{23}
+\bibcite{cohen2012incorporating}{24}
+\bibcite{dean2008mapreduce}{25}
+\bibcite{elmeleegy2014spongefiles}{26}
+\bibcite{helsley2009lxc}{27}
+\bibcite{jose2014privacy}{28}
+\bibcite{khan2012hatman}{29}
+\bibcite{lin2012toward}{30}
+\bibcite{madaan2012implementation}{31}
+\bibcite{o2010integrating}{32}
+\bibcite{o2009hadoop}{33}
+\bibcite{park2013secure}{34}
+\bibcite{reddy2013access}{35}
+\bibcite{sadasivam2012novel}{36}
+\bibcite{shen2010security}{37}
+\bibcite{shvachko2010hadoop}{38}
+\bibcite{steiner1988kerberos}{39}
+\bibcite{subashini2011survey}{40}
+\bibcite{sujitha2013improving}{41}
+\bibcite{tankard2012big}{42}
+\bibcite{thusoo2009hive}{43}
+\bibcite{tripathi2013hadoop}{44}
+\bibcite{tseng2012implement}{45}
+\bibcite{vavilapalli2013apache}{46}
+\bibcite{wang2011viaf}{47}
+\bibcite{wei2014security}{48}
+\bibcite{wei2009securemr}{49}
+\bibcite{zhou2014new}{50}
+\bibcite{zhou2010security}{51}

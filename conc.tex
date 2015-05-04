@@ -7,7 +7,12 @@ was for. Instead provide some philosophical ruminations of your work and
 future possibilities, i.e., conclusions that you have arrived at as a
 result of your work.)
 \fi
+This paper presents the security evaluation on Hadoop YARN containers. Through analyzing Hadoop frameworks and the Docker container technology, we answer the following three questions:
+\begin{itemize}
+\item {How does the Docker container work in Hadoop? Hadoop uses the Docker container through the Docker Container Executor and running Map or Reduce tasks in dynamically created or terminated Docker containers.}
+\item {What are the security problems have been solved by the Docker container? The Docker container is adopted in Hadoop to provide isolated runtime environment so that it can restrict the damages of arbitrary code execution.}
+\item {What are the security problems have not been solved yet? One problem is the Hadoop authorization because the Docker container can only be used in non-secure mode of Hadoop. The Docker container also introduces the problem of escalated privileges since the Docker daemon services requires the root access.}
+\end{itemize}
 
-7.1	How does container work in Hadoop ?
-7.2	What are the security problems have been solved by YARN container ?
-7.3	What are the security problems have not been solved yet ?
+Besides this, this paper proves the two unsolved security problems related to the Docker container and performs one example attack to show the consequences of allowing non-root users to access Docker. We also propose solutions to these problems and discuss the trade-off of using these solutions.
+
